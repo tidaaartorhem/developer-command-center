@@ -1,0 +1,45 @@
+# Fleet definition for developer-command-center.
+# Each entry is a repo Aadit ships from, plus the deploy target that serves it live.
+# live_url values were verified with real HTTP checks on 2026-10-07:
+#   - freelancer-crm.web.app 404s; its real live URL is the App Hosting backend URL below.
+#   - life-os-dashboard is served both places; the App Hosting backend is the deploy
+#     target with real rollout history, so it is listed as the target.
+owner: tidaaartorhem
+repos:
+  - name: life-os-dashboard
+    live_url: https://life-os-dashboard-1--truth-or-shots.us-east4.hosted.app
+    target_kind: app-hosting
+    notes: Shipped 2026-09-30. Deployed via Firebase App Hosting (backend life-os-dashboard-1).
+  - name: freelancer-crm
+    live_url: https://freelancer-crm-1--truth-or-shots.us-east4.hosted.app
+    target_kind: app-hosting
+    notes: Shipped 2026-09-30. freelancer-crm.web.app 404s as of 2026-10-07; the App Hosting backend freelancer-crm-1 is the real live target.
+  - name: regulatory-change-radar
+    live_url: https://regulatory-change-radar-1--truth-or-shots.us-east4.hosted.app
+    target_kind: app-hosting
+    notes: Shipped 2026-10-01. Backend regulatory-change-radar-1. Its auto-builds silently never fired on push (2026-10-01) — the incident this tool exists to catch.
+  - name: field-manual
+    live_url: https://aadit-field-manual.web.app
+    target_kind: firebase-hosting
+    notes: Shipped 2026-10-02. Firebase Hosting site aadit-field-manual.
+  - name: personal-finance-os
+    live_url: https://personal-finance-os.web.app
+    target_kind: firebase-hosting
+    notes: Shipped 2026-10-03.
+  - name: ai-trading-terminal
+    live_url: https://ai-trading-terminal.web.app
+    target_kind: firebase-hosting
+    notes: Shipped 2026-10-04.
+  - name: creator-analytics-studio
+    live_url: https://creator-analytics-studio.web.app
+    target_kind: firebase-hosting
+    notes: Shipped 2026-10-05.
+  - name: f1-race-weekend-os
+    live_url: https://f1-race-weekend-os.web.app
+    target_kind: firebase-hosting
+    notes: Shipped 2026-10-06.
+drift:
+  # A push is STALE when the latest main commit is newer than the last known live stamp.
+  # No grace period: any post-deploy commit is flagged, with the exact gap shown so the
+  # operator can judge (43s gaps from computedAt-only refreshes look different from real drift).
+  stale_pr_days: 14
