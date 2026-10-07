@@ -1,0 +1,898 @@
+{
+ "computedAt": "2026-10-07T12:53:23Z",
+ "repos": [
+  {
+   "repo": "life-os-dashboard",
+   "githubUrl": "https://github.com/tidaaartorhem/life-os-dashboard",
+   "liveUrl": "https://life-os-dashboard-1--truth-or-shots.us-east4.hosted.app",
+   "targetKind": "app-hosting",
+   "targetLabel": "App Hosting",
+   "drift": {
+    "status": "LIVE",
+    "gapText": "deployed 5s after last push",
+    "evidence": "Last known live stamp (2026-09-30T20:15:17Z) covers the latest main commit (2026-09-30T20:15:12Z)."
+   },
+   "latestCommit": {
+    "sha": "93df828",
+    "fullSha": "93df82875d8f8b6a8a5d533414db1b289c652d86",
+    "message": "docs: add live demo link to README",
+    "committedAt": "2026-09-30T20:15:12Z",
+    "author": "Aadit Mehrotra"
+   },
+   "commitHistory": [
+    {
+     "sha": "93df828",
+     "fullSha": "93df82875d8f8b6a8a5d533414db1b289c652d86",
+     "message": "docs: add live demo link to README",
+     "committedAt": "2026-09-30T20:15:12Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "a41f46a",
+     "fullSha": "a41f46ae9b0e40525109d51b7331f0b4792f3a5d",
+     "message": "fix: add missing db:setup script for App Hosting build",
+     "committedAt": "2026-09-30T20:10:30Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "8486e29",
+     "fullSha": "8486e299c6628dd5fd66805f731105201abb933a",
+     "message": "chore: prepare Firebase App Hosting deploy (seed DB at build, apphosting.yaml)",
+     "committedAt": "2026-09-30T19:48:19Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "8e4f9a4",
+     "fullSha": "8e4f9a456d461bbbbb214671618a8ea11f81bca1",
+     "message": "chore: finalize Playwright config and fix test type errors",
+     "committedAt": "2026-09-30T18:31:49Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "618c196",
+     "fullSha": "618c196ea51e9f795f4148904c73c4db9545333e",
+     "message": "docs: write README and add Playwright E2E acceptance spec",
+     "committedAt": "2026-09-30T18:05:16Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "9b5cc40",
+     "fullSha": "9b5cc40a90773e850c3e2190ddb5e774355eefd8",
+     "message": "test: add vitest unit and integration test suite",
+     "committedAt": "2026-09-30T18:02:32Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "9d690e3",
+     "fullSha": "9d690e3594e03b8683b0df5af7eb17fc4289c6fd",
+     "message": "feat: add loading skeletons, error boundaries, and force-dynamic rendering",
+     "committedAt": "2026-09-30T17:57:35Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "1b5015c",
+     "fullSha": "1b5015c7b0491eb3ac098a699aa878cd5db275ae",
+     "message": "feat: build analytics page with recharts dashboards",
+     "committedAt": "2026-09-30T17:55:58Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "ee18d2b",
+     "fullSha": "ee18d2ba4ac834a3fbc829cb9e2ea2ae6da6e423",
+     "message": "feat: build calendar with month/week/day views and drag-to-reschedule",
+     "committedAt": "2026-09-30T17:55:16Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "3ee266e",
+     "fullSha": "3ee266edea9bf8d72f283251f9dcf5d809abe4e5",
+     "message": "feat: build goals page with milestones, linked tasks, and progress tracking",
+     "committedAt": "2026-09-30T17:54:13Z",
+     "author": "Aadit Mehrotra"
+    }
+   ],
+   "actions": null,
+   "actionsHistory": [],
+   "prs": {
+    "open": 0,
+    "stale": []
+   },
+   "dependabot": {
+    "total": 0,
+    "bySeverity": {
+     "critical": 0,
+     "high": 0,
+     "moderate": 0,
+     "low": 0
+    }
+   },
+   "githubDeployments": 0,
+   "githubDeploymentsNote": "GitHub records no deployments for this fleet \u2014 deploys go out via Firebase CLI / App Hosting, which is why live stamps are tracked here.",
+   "stamp": {
+    "deployedAt": "2026-09-30T20:15:17Z",
+    "source": "apphosting-rollout",
+    "sourceLabel": "App Hosting rollout",
+    "sha": null,
+    "reportedAt": "2026-10-07T12:45:00Z",
+    "note": "Latest SUCCEEDED rollout of App Hosting backend life-os-dashboard-1 (real rollout history, fetched 2026-10-07). An earlier 19:58:20Z rollout that day FAILED; the 20:15:17Z rollout picked up the 20:15:15Z push."
+   }
+  },
+  {
+   "repo": "freelancer-crm",
+   "githubUrl": "https://github.com/tidaaartorhem/freelancer-crm",
+   "liveUrl": "https://freelancer-crm-1--truth-or-shots.us-east4.hosted.app",
+   "targetKind": "app-hosting",
+   "targetLabel": "App Hosting",
+   "drift": {
+    "status": "LIVE",
+    "gapText": "deployed 1h 38m after last push",
+    "evidence": "Last known live stamp (2026-09-30T21:27:02Z) covers the latest main commit (2026-09-30T19:48:18Z)."
+   },
+   "latestCommit": {
+    "sha": "801db5e",
+    "fullSha": "801db5eee4360142eb67558598402df77e4fbbba",
+    "message": "chore: prepare Firebase App Hosting deploy (seed DB at build, apphosting.yaml)",
+    "committedAt": "2026-09-30T19:48:18Z",
+    "author": "Aadit Mehrotra"
+   },
+   "commitHistory": [
+    {
+     "sha": "801db5e",
+     "fullSha": "801db5eee4360142eb67558598402df77e4fbbba",
+     "message": "chore: prepare Firebase App Hosting deploy (seed DB at build, apphosting.yaml)",
+     "committedAt": "2026-09-30T19:48:18Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "9963054",
+     "fullSha": "99630548dd9ee6dce0bf9632983cf1b74a994bac",
+     "message": "chore: track .env.example (scaffold gitignore excluded it)",
+     "committedAt": "2026-09-30T19:21:55Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "52d9abb",
+     "fullSha": "52d9abbb3a155c4c2428f242420e5f74091ffb44",
+     "message": "docs: write problem-first README; add shared types, debounce hook, and live client search",
+     "committedAt": "2026-09-30T19:18:12Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "a801e8f",
+     "fullSha": "a801e8fa968a1ee5095de3b0836069a4362b2b6d",
+     "message": "test: add vitest unit and integration suite plus Playwright E2E spec for the primary journey",
+     "committedAt": "2026-09-30T19:13:29Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "45d9d36",
+     "fullSha": "45d9d368dec572f39d864b80eae72c3053173135",
+     "message": "fix: resolve TypeScript strict errors in forms and chart formatters",
+     "committedAt": "2026-09-30T19:11:33Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "684889e",
+     "fullSha": "684889e28ea08e8ca189c49c6d84be214df50db6",
+     "message": "feat: build AI pipeline assistant with approval queue, follow-ups, and invoices",
+     "committedAt": "2026-09-30T19:09:42Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "58aea2a",
+     "fullSha": "58aea2af661d692931e13735908b5cf0f8efa08e",
+     "message": "feat: build deals pipeline kanban with drag-and-drop and deal creation",
+     "committedAt": "2026-09-30T19:08:06Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "bef73e7",
+     "fullSha": "bef73e7523a7ba2c345e64acb8867e74a4626192",
+     "message": "feat: build clients pages with contact details, deals, and activity timeline",
+     "committedAt": "2026-09-30T19:07:17Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "a023287",
+     "fullSha": "a023287935d18198d95e706496b02760cbefe576",
+     "message": "feat: build dashboard with pipeline analytics, at-risk deals, and follow-ups",
+     "committedAt": "2026-09-30T19:05:55Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "5881f28",
+     "fullSha": "5881f28795d818a96b6ab5b97081f2a1dbfd1902",
+     "message": "feat: add domain services, validations, at-risk detection, and AI provider abstraction",
+     "committedAt": "2026-09-30T19:03:41Z",
+     "author": "Aadit Mehrotra"
+    }
+   ],
+   "actions": null,
+   "actionsHistory": [],
+   "prs": {
+    "open": 0,
+    "stale": []
+   },
+   "dependabot": {
+    "total": 0,
+    "bySeverity": {
+     "critical": 0,
+     "high": 0,
+     "moderate": 0,
+     "low": 0
+    }
+   },
+   "githubDeployments": 0,
+   "githubDeploymentsNote": "GitHub records no deployments for this fleet \u2014 deploys go out via Firebase CLI / App Hosting, which is why live stamps are tracked here.",
+   "stamp": {
+    "deployedAt": "2026-09-30T21:27:02Z",
+    "source": "apphosting-rollout",
+    "sourceLabel": "App Hosting rollout",
+    "sha": null,
+    "reportedAt": "2026-10-07T12:45:00Z",
+    "note": "Latest SUCCEEDED rollout of App Hosting backend freelancer-crm-1 (real rollout history, fetched 2026-10-07). freelancer-crm.web.app 404s; this backend URL is the real live target."
+   }
+  },
+  {
+   "repo": "regulatory-change-radar",
+   "githubUrl": "https://github.com/tidaaartorhem/regulatory-change-radar",
+   "liveUrl": "https://regulatory-change-radar-1--truth-or-shots.us-east4.hosted.app",
+   "targetKind": "app-hosting",
+   "targetLabel": "App Hosting",
+   "drift": {
+    "status": "LIVE",
+    "gapText": "deployed 11m 27s after last push",
+    "evidence": "Last known live stamp (2026-10-01T14:16:32Z) covers the latest main commit (2026-10-01T14:05:05Z)."
+   },
+   "latestCommit": {
+    "sha": "9cc30bb",
+    "fullSha": "9cc30bb180c7644ae00597041b1471a54a931a83",
+    "message": "feat: replace control-impact heatmap with action-items overview",
+    "committedAt": "2026-10-01T14:05:05Z",
+    "author": "Aadit Mehrotra"
+   },
+   "commitHistory": [
+    {
+     "sha": "9cc30bb",
+     "fullSha": "9cc30bb180c7644ae00597041b1471a54a931a83",
+     "message": "feat: replace control-impact heatmap with action-items overview",
+     "committedAt": "2026-10-01T14:05:05Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "395c60c",
+     "fullSha": "395c60ca892566d9ac87662ef9e5afca9e68a8fa",
+     "message": "docs: rewrite README for the live pipeline; zero demo language",
+     "committedAt": "2026-10-01T13:30:38Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "849b09b",
+     "fullSha": "849b09bd590a9e9072bd61e183b3754161a2f767",
+     "message": "feat: deterministic action plans + visual-first dashboard and briefings",
+     "committedAt": "2026-10-01T13:29:14Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "755848d",
+     "fullSha": "755848d2e182e90f47f3831d93fc05f6df3fbeda",
+     "message": "feat: live ingestion replaces seeded data; initial real 152-publication dataset",
+     "committedAt": "2026-10-01T13:27:10Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "f2aaf38",
+     "fullSha": "f2aaf381f8a22b3846d8e50112ef3cb87e3eda15",
+     "message": "style: remove demo wording; add provenance (retrieved dates, source URLs) and visible scan report",
+     "committedAt": "2026-10-01T13:23:08Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "b7ecb46",
+     "fullSha": "b7ecb461500c12ae921f9de50ba6e92a34269cad",
+     "message": "refactor: ExtractiveSummarizer replaces demo summarizer; drop seeded flag, add ingestedAt",
+     "committedAt": "2026-10-01T13:22:43Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "f2c2343",
+     "fullSha": "f2c234364a3eb64aa50da96b48d0382d16aef38f",
+     "message": "style: light official redesign of feed, publication detail, controls library, watchlist",
+     "committedAt": "2026-10-01T13:21:13Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "ad881b8",
+     "fullSha": "ad881b845aba0a56c85e782b493216f8a02b3a59",
+     "message": "style: official light app shell \u2014 utility bar, navy header, honest footer disclaimer",
+     "committedAt": "2026-10-01T13:20:54Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "35bfa62",
+     "fullSha": "35bfa62a1975573927bd3095081ded1d4dd84025",
+     "message": "style: government-grade light design tokens, typography, muted severity badges",
+     "committedAt": "2026-10-01T13:20:46Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "8cb65e4",
+     "fullSha": "8cb65e4be0c368597545eb3d01a531bb12ac882c",
+     "message": "docs: add verified live demo URL to README",
+     "committedAt": "2026-10-01T13:14:25Z",
+     "author": "Aadit Mehrotra"
+    }
+   ],
+   "actions": null,
+   "actionsHistory": [],
+   "prs": {
+    "open": 0,
+    "stale": []
+   },
+   "dependabot": {
+    "total": 0,
+    "bySeverity": {
+     "critical": 0,
+     "high": 0,
+     "moderate": 0,
+     "low": 0
+    }
+   },
+   "githubDeployments": 0,
+   "githubDeploymentsNote": "GitHub records no deployments for this fleet \u2014 deploys go out via Firebase CLI / App Hosting, which is why live stamps are tracked here.",
+   "stamp": {
+    "deployedAt": "2026-10-01T14:16:32Z",
+    "source": "apphosting-rollout",
+    "sourceLabel": "App Hosting rollout",
+    "sha": null,
+    "reportedAt": "2026-10-07T12:45:00Z",
+    "note": "Latest SUCCEEDED rollout of App Hosting backend regulatory-change-radar-1 (real rollout history, fetched 2026-10-07). No rollouts after 2026-10-01 \u2014 the silent auto-build failure this tool exists to catch."
+   }
+  },
+  {
+   "repo": "field-manual",
+   "githubUrl": "https://github.com/tidaaartorhem/field-manual",
+   "liveUrl": "https://aadit-field-manual.web.app",
+   "targetKind": "firebase-hosting",
+   "targetLabel": "Firebase Hosting",
+   "drift": {
+    "status": "LIVE",
+    "gapText": "deployed 3d 14h after last push",
+    "evidence": "Last known live stamp (2026-10-06T12:01:02Z) covers the latest main commit (2026-10-02T21:16:36Z)."
+   },
+   "latestCommit": {
+    "sha": "6b6d21d",
+    "fullSha": "6b6d21d1b209aa4afe63f36a3204c1a5f84c9726",
+    "message": "fix: clear error when email render runs against a pre-v4 edition",
+    "committedAt": "2026-10-02T21:16:36Z",
+    "author": "Aadit Mehrotra"
+   },
+   "commitHistory": [
+    {
+     "sha": "6b6d21d",
+     "fullSha": "6b6d21d1b209aa4afe63f36a3204c1a5f84c9726",
+     "message": "fix: clear error when email render runs against a pre-v4 edition",
+     "committedAt": "2026-10-02T21:16:36Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "ef66af9",
+     "fullSha": "ef66af91cb5547a4fa90f06c010b76074824ac01",
+     "message": "fix: clear error when emails run against a pre-v4 edition",
+     "committedAt": "2026-10-02T21:16:24Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "76affa0",
+     "fullSha": "76affa089ba18f702fbb6ce79ca48b5b0cc833b2",
+     "message": "docs: v4 runbook, schema, and privacy notes",
+     "committedAt": "2026-10-02T21:16:01Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "36b75a0",
+     "fullSha": "36b75a0c37f1686e31af5e231064af9525391bb9",
+     "message": "feat: v4 frontend \u2014 digest reader, source adder form, slim link shelves",
+     "committedAt": "2026-10-02T21:16:01Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "d51a3b4",
+     "fullSha": "d51a3b44aa55e8f0114f5927a999d255d2403b30",
+     "message": "feat: v4 digest edition \u2014 500-700 word story replaces per-item briefings",
+     "committedAt": "2026-10-02T21:16:01Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "d13714d",
+     "fullSha": "d13714d7f3afef45e96e61c93c253d0fc5b0e0ca",
+     "message": "feat: personal source adder \u2014 user_sources collection + scrape pipeline",
+     "committedAt": "2026-10-02T21:16:01Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "2994aad",
+     "fullSha": "2994aadee10760c19581fb38f2194850167dffb7",
+     "message": "fix: pretty outlet names on charts (Y Combinator, New York Times, YouTube)",
+     "committedAt": "2026-10-02T19:05:50Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "ce65c11",
+     "fullSha": "ce65c11f2a90c762d48a364731a66ef12987abe0",
+     "message": "charts: OpenAI chart editor pass + charts regen command",
+     "committedAt": "2026-10-02T19:03:14Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "91bd7f2",
+     "fullSha": "91bd7f2b02db9fde90cb67e040c0779501046ea7",
+     "message": "charts: hard rules, drop volume filler, fix title/subtitle overlap",
+     "committedAt": "2026-10-02T19:02:57Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "d3b128e",
+     "fullSha": "d3b128e8bbe382f38f79fced1db699697778930f",
+     "message": "data: v3 live edition \u2014 2026-10-02 (RSS pipeline, charts, email HTML)",
+     "committedAt": "2026-10-02T18:53:02Z",
+     "author": "Aadit Mehrotra"
+    }
+   ],
+   "actions": null,
+   "actionsHistory": [],
+   "prs": {
+    "open": 0,
+    "stale": []
+   },
+   "dependabot": {
+    "total": 0,
+    "bySeverity": {
+     "critical": 0,
+     "high": 0,
+     "moderate": 0,
+     "low": 0
+    }
+   },
+   "githubDeployments": 0,
+   "githubDeploymentsNote": "GitHub records no deployments for this fleet \u2014 deploys go out via Firebase CLI / App Hosting, which is why live stamps are tracked here.",
+   "stamp": {
+    "deployedAt": "2026-10-06T12:01:02Z",
+    "source": "firebase-hosting-release",
+    "sourceLabel": "Firebase Hosting release",
+    "sha": null,
+    "reportedAt": "2026-10-07T12:45:00Z",
+    "note": "Decoded from the Firebase Hosting release ID (sites/aadit-field-manual/releases/1791288062354000, microsecond timestamp); last-known-live from real release history, fetched 2026-10-07."
+   }
+  },
+  {
+   "repo": "personal-finance-os",
+   "githubUrl": "https://github.com/tidaaartorhem/personal-finance-os",
+   "liveUrl": "https://personal-finance-os.web.app",
+   "targetKind": "firebase-hosting",
+   "targetLabel": "Firebase Hosting",
+   "drift": {
+    "status": "LIVE",
+    "gapText": "deployed 23h 53m after last push",
+    "evidence": "Last known live stamp (2026-10-04T12:43:05Z) covers the latest main commit (2026-10-03T12:49:35Z)."
+   },
+   "latestCommit": {
+    "sha": "d402cc6",
+    "fullSha": "d402cc6ef75e2569e956b4c6d403eb82c6642eef",
+    "message": "docs: README problem-first rewrite and polish",
+    "committedAt": "2026-10-03T12:49:35Z",
+    "author": "Aadit Mehrotra"
+   },
+   "commitHistory": [
+    {
+     "sha": "d402cc6",
+     "fullSha": "d402cc6ef75e2569e956b4c6d403eb82c6642eef",
+     "message": "docs: README problem-first rewrite and polish",
+     "committedAt": "2026-10-03T12:49:35Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "1cad5da",
+     "fullSha": "1cad5daa5c02e7d931397cd7e27cfda4430295a8",
+     "message": "test: pytest suite and vitest smoke, all green",
+     "committedAt": "2026-10-03T12:49:17Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "9b637c2",
+     "fullSha": "9b637c2f32cebd8b6dca1d225e55666c636b385f",
+     "message": "feat(web): dashboard frontend (overview, subscriptions, tax, brief views)",
+     "committedAt": "2026-10-03T12:48:34Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "467ed1f",
+     "fullSha": "467ed1f0561c3a80c8392c6e7f9b55e45c4dc0a4",
+     "message": "data: synthetic sample transactions, category rules, pipeline output",
+     "committedAt": "2026-10-03T12:45:50Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "c50cf92",
+     "fullSha": "c50cf927d9b4fc75cf84a9e73301e7c64e388e7d",
+     "message": "feat(services): Ontario tax estimator, brief generator, CLI orchestrator",
+     "committedAt": "2026-10-03T12:44:55Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "c726e7e",
+     "fullSha": "c726e7e21904d14bf1abfacb41a4b33f2caf1113",
+     "message": "feat(services): subscription detector and cash-flow engine",
+     "committedAt": "2026-10-03T12:44:21Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "7f941cc",
+     "fullSha": "7f941ccf93836814162e7edf30f155e882a108cd",
+     "message": "feat(services): CSV ingestion and rule-based categorizer",
+     "committedAt": "2026-10-03T12:44:02Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "84f084f",
+     "fullSha": "84f084fdcda7c2e688bc585d0cf2268f5522a3dd",
+     "message": "scaffold: repo layout, gitignore, firebase config, README skeleton",
+     "committedAt": "2026-10-03T12:43:44Z",
+     "author": "Aadit Mehrotra"
+    }
+   ],
+   "actions": null,
+   "actionsHistory": [],
+   "prs": {
+    "open": 0,
+    "stale": []
+   },
+   "dependabot": {
+    "total": 0,
+    "bySeverity": {
+     "critical": 0,
+     "high": 0,
+     "moderate": 0,
+     "low": 0
+    }
+   },
+   "githubDeployments": 0,
+   "githubDeploymentsNote": "GitHub records no deployments for this fleet \u2014 deploys go out via Firebase CLI / App Hosting, which is why live stamps are tracked here.",
+   "stamp": {
+    "deployedAt": "2026-10-04T12:43:05Z",
+    "source": "firebase-hosting-release",
+    "sourceLabel": "Firebase Hosting release",
+    "sha": null,
+    "reportedAt": "2026-10-07T12:45:00Z",
+    "note": "Decoded from the Firebase Hosting release ID (sites/personal-finance-os/releases/1791117785626000); last-known-live from real release history, fetched 2026-10-07."
+   }
+  },
+  {
+   "repo": "ai-trading-terminal",
+   "githubUrl": "https://github.com/tidaaartorhem/ai-trading-terminal",
+   "liveUrl": "https://ai-trading-terminal.web.app",
+   "targetKind": "firebase-hosting",
+   "targetLabel": "Firebase Hosting",
+   "drift": {
+    "status": "STALE",
+    "gapText": "pushed 1m 37s after last deploy",
+    "evidence": "Latest main commit (2026-10-04T13:04:19Z) is newer than the last known live stamp (2026-10-04T13:02:42Z) \u2014 pushed 1m 37s after the last deploy finished."
+   },
+   "latestCommit": {
+    "sha": "a6ffce1",
+    "fullSha": "a6ffce1ee7be2eb35095091be89f2720243d497a",
+    "message": "chore: ignore firebase deploy cache",
+    "committedAt": "2026-10-04T13:04:19Z",
+    "author": "Aadit Mehrotra"
+   },
+   "commitHistory": [
+    {
+     "sha": "a6ffce1",
+     "fullSha": "a6ffce1ee7be2eb35095091be89f2720243d497a",
+     "message": "chore: ignore firebase deploy cache",
+     "committedAt": "2026-10-04T13:04:19Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "c256166",
+     "fullSha": "c256166a0aa032e03b45035175c83e73cc2cdd0d",
+     "message": "README: problem-first, pipeline docs, honest limitations",
+     "committedAt": "2026-10-04T13:02:12Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "0911630",
+     "fullSha": "091163069ecefaf426410739714492171a87d491",
+     "message": "build: pipeline JSONs baked from real Yahoo Finance data (as of 2026-10-02)",
+     "committedAt": "2026-10-04T13:01:58Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "e7056c2",
+     "fullSha": "e7056c22a0a1989d57d60a03e19a052f0f45512c",
+     "message": "frontend: light-mode trading terminal \u2014 watchlist, positions, journal, analytics",
+     "committedAt": "2026-10-04T13:01:58Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "899b959",
+     "fullSha": "899b9590ed883d6bb0adf72e82426a87a955c7d0",
+     "message": "tests: 30 pytest green across indicators, auditor, analytics, e2e build",
+     "committedAt": "2026-10-04T13:00:42Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "594fee6",
+     "fullSha": "594fee693e171d880e165b678361ce6d9c42ca37",
+     "message": "seed data: 24 sample trades + open positions priced off real Yahoo closes",
+     "committedAt": "2026-10-04T13:00:42Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "955108f",
+     "fullSha": "955108f5c660e3b38eb1008b8e24ee3f2282ac2e",
+     "message": "python engine: market data (Stooq + Yahoo fallback + cache), indicators, discipline auditor, analytics, build CLI",
+     "committedAt": "2026-10-04T13:00:42Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "911469c",
+     "fullSha": "911469cf6409270ca406c146bf151c86766bbd6e",
+     "message": "scaffold: repo root, firebase hosting config, gitignore",
+     "committedAt": "2026-10-04T12:46:30Z",
+     "author": "Aadit Mehrotra"
+    }
+   ],
+   "actions": null,
+   "actionsHistory": [],
+   "prs": {
+    "open": 0,
+    "stale": []
+   },
+   "dependabot": {
+    "total": 0,
+    "bySeverity": {
+     "critical": 0,
+     "high": 0,
+     "moderate": 0,
+     "low": 0
+    }
+   },
+   "githubDeployments": 0,
+   "githubDeploymentsNote": "GitHub records no deployments for this fleet \u2014 deploys go out via Firebase CLI / App Hosting, which is why live stamps are tracked here.",
+   "stamp": {
+    "deployedAt": "2026-10-04T13:02:42Z",
+    "source": "firebase-hosting-release",
+    "sourceLabel": "Firebase Hosting release",
+    "sha": null,
+    "reportedAt": "2026-10-07T12:45:00Z",
+    "note": "Decoded from the Firebase Hosting release ID (sites/ai-trading-terminal/releases/1791118962959000); last-known-live from real release history, fetched 2026-10-07."
+   }
+  },
+  {
+   "repo": "creator-analytics-studio",
+   "githubUrl": "https://github.com/tidaaartorhem/creator-analytics-studio",
+   "liveUrl": "https://creator-analytics-studio.web.app",
+   "targetKind": "firebase-hosting",
+   "targetLabel": "Firebase Hosting",
+   "drift": {
+    "status": "LIVE",
+    "gapText": "deployed 1m 31s after last push",
+    "evidence": "Last known live stamp (2026-10-05T13:19:46Z) covers the latest main commit (2026-10-05T13:18:15Z)."
+   },
+   "latestCommit": {
+    "sha": "e3c6472",
+    "fullSha": "e3c6472a5170f6d69bf177753eb1d74dfae33541",
+    "message": "docs: README \u2014 problem space, scoring rules, data sources, honest limitations",
+    "committedAt": "2026-10-05T13:18:15Z",
+    "author": "Aadit Mehrotra"
+   },
+   "commitHistory": [
+    {
+     "sha": "e3c6472",
+     "fullSha": "e3c6472a5170f6d69bf177753eb1d74dfae33541",
+     "message": "docs: README \u2014 problem space, scoring rules, data sources, honest limitations",
+     "committedAt": "2026-10-05T13:18:15Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "5d6e90e",
+     "fullSha": "5d6e90e83c479bbeab0f5c1e1388d7cf5cb1b4b9",
+     "message": "web: generated studio JSONs from sample channel pipeline run",
+     "committedAt": "2026-10-05T13:18:15Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "a62e1fa",
+     "fullSha": "a62e1fab9e0d7b0ae910c9737f4fc17f36a0a16b",
+     "message": "web: 44 vitest tests for formatting, filtering, brief rendering",
+     "committedAt": "2026-10-05T13:18:15Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "02e2da2",
+     "fullSha": "02e2da20acaa4b2eb8714e036b7686faa1184f1c",
+     "message": "web: six studio views \u2014 overview, videos, pillars, refresh, cadence, brief",
+     "committedAt": "2026-10-05T13:18:15Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "d6f7525",
+     "fullSha": "d6f7525acd50319da154999875e294d774bf8b4b",
+     "message": "web: vite+react scaffold, light-mode design system, data and format layer",
+     "committedAt": "2026-10-05T13:18:15Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "aa964d8",
+     "fullSha": "aa964d84f86c4275882b7f8ea11d2cdaba5d78f0",
+     "message": "services: 29 pytest tests for ratios, decay, pillars, scoring, client",
+     "committedAt": "2026-10-05T13:18:08Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "a4e354b",
+     "fullSha": "a4e354bd12a29f2962a3ea50f874a6ee3267290c",
+     "message": "services: cadence analysis, deterministic health scoring, pipeline entrypoint",
+     "committedAt": "2026-10-05T13:18:08Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "2aa7c03",
+     "fullSha": "2aa7c03876799f496947b4e8ca3a3ba2574e38e4",
+     "message": "services: pillar clustering, age-normalized outlier ratios, decay detection",
+     "committedAt": "2026-10-05T13:18:08Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "3a5e57d",
+     "fullSha": "3a5e57de2c897cf7825ff6679500ad47146233bd",
+     "message": "services: YouTube Data API client via quota-cheap uploads-playlist pattern",
+     "committedAt": "2026-10-05T13:18:08Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "63a855e",
+     "fullSha": "63a855e9d738605c107621451ca72f4c6f904209",
+     "message": "data: fictional sample channel, 76 videos across 5 pillars (labeled)",
+     "committedAt": "2026-10-05T13:18:08Z",
+     "author": "Aadit Mehrotra"
+    }
+   ],
+   "actions": null,
+   "actionsHistory": [],
+   "prs": {
+    "open": 0,
+    "stale": []
+   },
+   "dependabot": {
+    "total": 0,
+    "bySeverity": {
+     "critical": 0,
+     "high": 0,
+     "moderate": 0,
+     "low": 0
+    }
+   },
+   "githubDeployments": 0,
+   "githubDeploymentsNote": "GitHub records no deployments for this fleet \u2014 deploys go out via Firebase CLI / App Hosting, which is why live stamps are tracked here.",
+   "stamp": {
+    "deployedAt": "2026-10-05T13:19:46Z",
+    "source": "firebase-hosting-release",
+    "sourceLabel": "Firebase Hosting release",
+    "sha": null,
+    "reportedAt": "2026-10-07T12:45:00Z",
+    "note": "Decoded from the Firebase Hosting release ID (sites/creator-analytics-studio/releases/1791206386479000); last-known-live from real release history, fetched 2026-10-07."
+   }
+  },
+  {
+   "repo": "f1-race-weekend-os",
+   "githubUrl": "https://github.com/tidaaartorhem/f1-race-weekend-os",
+   "liveUrl": "https://f1-race-weekend-os.web.app",
+   "targetKind": "firebase-hosting",
+   "targetLabel": "Firebase Hosting",
+   "drift": {
+    "status": "STALE",
+    "gapText": "pushed 36s after last deploy",
+    "evidence": "Latest main commit (2026-10-06T12:59:30Z) is newer than the last known live stamp (2026-10-06T12:58:54Z) \u2014 pushed 36s after the last deploy finished."
+   },
+   "latestCommit": {
+    "sha": "a6f0840",
+    "fullSha": "a6f0840628f82457f1190d5f656501aee2488797",
+    "message": "refresh built JSONs to match the deployed build (computedAt only)",
+    "committedAt": "2026-10-06T12:59:30Z",
+    "author": "Aadit Mehrotra"
+   },
+   "commitHistory": [
+    {
+     "sha": "a6f0840",
+     "fullSha": "a6f0840628f82457f1190d5f656501aee2488797",
+     "message": "refresh built JSONs to match the deployed build (computedAt only)",
+     "committedAt": "2026-10-06T12:59:30Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "cac94d6",
+     "fullSha": "cac94d6712a271eb3c88cbb072824ee844ad8dab",
+     "message": "polish: use OpenF1 meeting record for official race name instead of inferring it",
+     "committedAt": "2026-10-06T12:57:10Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "cf0718a",
+     "fullSha": "cf0718a9b177c1c1cfac5bdd88d7cd5e9b051c77",
+     "message": "seed data + tests: built public JSONs for Malaysian GP weekend, 27 pytest + 13 vitest all green",
+     "committedAt": "2026-10-06T12:55:36Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "781b6c8",
+     "fullSha": "781b6c8c40016529d8db1fbcb6f12a33217b66f9",
+     "message": "teammates + brief + overview views and app shell with tab navigation",
+     "committedAt": "2026-10-06T12:51:49Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "1958ec5",
+     "fullSha": "1958ec58e0a1657c679615efd624cc7551134845",
+     "message": "tyres view: per-driver stint charts + team compound usage table + longest-stint callout",
+     "committedAt": "2026-10-06T12:51:07Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "00604dd",
+     "fullSha": "00604ddd654f2958140845c14c6ac4db3427cea5",
+     "message": "pace view: team gap bars + driver table with compound splits and consistency",
+     "committedAt": "2026-10-06T12:50:51Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "4f8800a",
+     "fullSha": "4f8800ad96545385786855ad188f52c3af1af793",
+     "message": "design tokens: light-mode command-center CSS borrowed from studio tokens + F1 session/stint/h2h components",
+     "committedAt": "2026-10-06T12:50:02Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "46304ae",
+     "fullSha": "46304ae86b34da79276f5899fcb3a4cf1c8aab2a",
+     "message": "data pipeline: openf1 client + pace/tyres/h2h/brief analysis + raw weekend data for 2026 Malaysian GP",
+     "committedAt": "2026-10-06T12:49:20Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "dc888a5",
+     "fullSha": "dc888a5734c131422627862c45e78f7a859ac598",
+     "message": "scaffold: repo layout, firebase hosting config, vite react-ts frontend skeleton, prepare-public pipeline hook",
+     "committedAt": "2026-10-06T12:44:40Z",
+     "author": "Aadit Mehrotra"
+    }
+   ],
+   "actions": null,
+   "actionsHistory": [],
+   "prs": {
+    "open": 0,
+    "stale": []
+   },
+   "dependabot": {
+    "total": 0,
+    "bySeverity": {
+     "critical": 0,
+     "high": 0,
+     "moderate": 0,
+     "low": 0
+    }
+   },
+   "githubDeployments": 0,
+   "githubDeploymentsNote": "GitHub records no deployments for this fleet \u2014 deploys go out via Firebase CLI / App Hosting, which is why live stamps are tracked here.",
+   "stamp": {
+    "deployedAt": "2026-10-06T12:58:54Z",
+    "source": "firebase-hosting-release",
+    "sourceLabel": "Firebase Hosting release",
+    "sha": null,
+    "reportedAt": "2026-10-07T12:45:00Z",
+    "note": "Decoded from the Firebase Hosting release ID (sites/f1-race-weekend-os/releases/1791291534611000); last-known-live from real release history, fetched 2026-10-07."
+   }
+  }
+ ]
+}

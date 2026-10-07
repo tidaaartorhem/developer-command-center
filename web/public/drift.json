@@ -1,0 +1,96 @@
+{
+ "computedAt": "2026-10-07T12:53:23Z",
+ "stale": [
+  {
+   "repo": "ai-trading-terminal",
+   "liveUrl": "https://ai-trading-terminal.web.app",
+   "githubUrl": "https://github.com/tidaaartorhem/ai-trading-terminal",
+   "status": "STALE",
+   "gapText": "pushed 1m 37s after last deploy",
+   "evidence": "Latest main commit (2026-10-04T13:04:19Z) is newer than the last known live stamp (2026-10-04T13:02:42Z) \u2014 pushed 1m 37s after the last deploy finished.",
+   "committedAt": "2026-10-04T13:04:19Z",
+   "deployedAt": "2026-10-04T13:02:42Z",
+   "message": "chore: ignore firebase deploy cache"
+  },
+  {
+   "repo": "f1-race-weekend-os",
+   "liveUrl": "https://f1-race-weekend-os.web.app",
+   "githubUrl": "https://github.com/tidaaartorhem/f1-race-weekend-os",
+   "status": "STALE",
+   "gapText": "pushed 36s after last deploy",
+   "evidence": "Latest main commit (2026-10-06T12:59:30Z) is newer than the last known live stamp (2026-10-06T12:58:54Z) \u2014 pushed 36s after the last deploy finished.",
+   "committedAt": "2026-10-06T12:59:30Z",
+   "deployedAt": "2026-10-06T12:58:54Z",
+   "message": "refresh built JSONs to match the deployed build (computedAt only)"
+  }
+ ],
+ "live": [
+  {
+   "repo": "life-os-dashboard",
+   "liveUrl": "https://life-os-dashboard-1--truth-or-shots.us-east4.hosted.app",
+   "githubUrl": "https://github.com/tidaaartorhem/life-os-dashboard",
+   "status": "LIVE",
+   "gapText": "deployed 5s after last push",
+   "evidence": "Last known live stamp (2026-09-30T20:15:17Z) covers the latest main commit (2026-09-30T20:15:12Z).",
+   "committedAt": "2026-09-30T20:15:12Z",
+   "deployedAt": "2026-09-30T20:15:17Z",
+   "message": "docs: add live demo link to README"
+  },
+  {
+   "repo": "freelancer-crm",
+   "liveUrl": "https://freelancer-crm-1--truth-or-shots.us-east4.hosted.app",
+   "githubUrl": "https://github.com/tidaaartorhem/freelancer-crm",
+   "status": "LIVE",
+   "gapText": "deployed 1h 38m after last push",
+   "evidence": "Last known live stamp (2026-09-30T21:27:02Z) covers the latest main commit (2026-09-30T19:48:18Z).",
+   "committedAt": "2026-09-30T19:48:18Z",
+   "deployedAt": "2026-09-30T21:27:02Z",
+   "message": "chore: prepare Firebase App Hosting deploy (seed DB at build, apphosting.yaml)"
+  },
+  {
+   "repo": "regulatory-change-radar",
+   "liveUrl": "https://regulatory-change-radar-1--truth-or-shots.us-east4.hosted.app",
+   "githubUrl": "https://github.com/tidaaartorhem/regulatory-change-radar",
+   "status": "LIVE",
+   "gapText": "deployed 11m 27s after last push",
+   "evidence": "Last known live stamp (2026-10-01T14:16:32Z) covers the latest main commit (2026-10-01T14:05:05Z).",
+   "committedAt": "2026-10-01T14:05:05Z",
+   "deployedAt": "2026-10-01T14:16:32Z",
+   "message": "feat: replace control-impact heatmap with action-items overview"
+  },
+  {
+   "repo": "field-manual",
+   "liveUrl": "https://aadit-field-manual.web.app",
+   "githubUrl": "https://github.com/tidaaartorhem/field-manual",
+   "status": "LIVE",
+   "gapText": "deployed 3d 14h after last push",
+   "evidence": "Last known live stamp (2026-10-06T12:01:02Z) covers the latest main commit (2026-10-02T21:16:36Z).",
+   "committedAt": "2026-10-02T21:16:36Z",
+   "deployedAt": "2026-10-06T12:01:02Z",
+   "message": "fix: clear error when email render runs against a pre-v4 edition"
+  },
+  {
+   "repo": "personal-finance-os",
+   "liveUrl": "https://personal-finance-os.web.app",
+   "githubUrl": "https://github.com/tidaaartorhem/personal-finance-os",
+   "status": "LIVE",
+   "gapText": "deployed 23h 53m after last push",
+   "evidence": "Last known live stamp (2026-10-04T12:43:05Z) covers the latest main commit (2026-10-03T12:49:35Z).",
+   "committedAt": "2026-10-03T12:49:35Z",
+   "deployedAt": "2026-10-04T12:43:05Z",
+   "message": "docs: README problem-first rewrite and polish"
+  },
+  {
+   "repo": "creator-analytics-studio",
+   "liveUrl": "https://creator-analytics-studio.web.app",
+   "githubUrl": "https://github.com/tidaaartorhem/creator-analytics-studio",
+   "status": "LIVE",
+   "gapText": "deployed 1m 31s after last push",
+   "evidence": "Last known live stamp (2026-10-05T13:19:46Z) covers the latest main commit (2026-10-05T13:18:15Z).",
+   "committedAt": "2026-10-05T13:18:15Z",
+   "deployedAt": "2026-10-05T13:19:46Z",
+   "message": "docs: README \u2014 problem space, scoring rules, data sources, honest limitations"
+  }
+ ],
+ "unknown": []
+}

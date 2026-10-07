@@ -1,0 +1,21 @@
+{
+ "computedAt": "2026-10-07T12:53:23Z",
+ "alerts": [
+  {
+   "severity": "high",
+   "kind": "drift",
+   "repo": "ai-trading-terminal",
+   "title": "ai-trading-terminal: pushed but not live",
+   "detail": "Latest main commit (2026-10-04T13:04:19Z) is newer than the last known live stamp (2026-10-04T13:02:42Z) \u2014 pushed 1m 37s after the last deploy finished.",
+   "url": "https://ai-trading-terminal.web.app"
+  },
+  {
+   "severity": "high",
+   "kind": "drift",
+   "repo": "f1-race-weekend-os",
+   "title": "f1-race-weekend-os: pushed but not live",
+   "detail": "Latest main commit (2026-10-06T12:59:30Z) is newer than the last known live stamp (2026-10-06T12:58:54Z) \u2014 pushed 36s after the last deploy finished.",
+   "url": "https://f1-race-weekend-os.web.app"
+  }
+ ]
+}
