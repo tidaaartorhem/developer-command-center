@@ -38,6 +38,10 @@ repos:
     live_url: https://f1-race-weekend-os.web.app
     target_kind: firebase-hosting
     notes: Shipped 2026-10-06.
+  - name: ai-sales-research-agent
+    live_url: https://ai-sales-research-agent.web.app
+    target_kind: firebase-hosting
+    notes: Shipped 2026-10-15. Firebase Hosting site ai-sales-research-agent.
 drift:
   # A push is STALE when the latest main commit is newer than the last known live stamp.
   # No grace period: any post-deploy commit is flagged, with the exact gap shown so the

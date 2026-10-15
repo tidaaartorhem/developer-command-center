@@ -1,1 +1,67 @@
-{"stamps":{"ai-trading-terminal":{"deployedAt":"2026-10-04T13:02:42Z","note":"Decoded from the Firebase Hosting release ID (sites/ai-trading-terminal/releases/1791118962959000); last-known-live from real release history, fetched 2026-10-07.","reportedAt":"2026-10-07T12:45:00Z","sha":null,"source":"firebase-hosting-release"},"creator-analytics-studio":{"deployedAt":"2026-10-05T13:19:46Z","note":"Decoded from the Firebase Hosting release ID (sites/creator-analytics-studio/releases/1791206386479000); last-known-live from real release history, fetched 2026-10-07.","reportedAt":"2026-10-07T12:45:00Z","sha":null,"source":"firebase-hosting-release"},"f1-race-weekend-os":{"deployedAt":"2026-10-06T12:58:54Z","note":"Decoded from the Firebase Hosting release ID (sites/f1-race-weekend-os/releases/1791291534611000); last-known-live from real release history, fetched 2026-10-07.","reportedAt":"2026-10-07T12:45:00Z","sha":null,"source":"firebase-hosting-release"},"field-manual":{"deployedAt":"2026-10-06T12:01:02Z","note":"Decoded from the Firebase Hosting release ID (sites/aadit-field-manual/releases/1791288062354000, microsecond timestamp); last-known-live from real release history, fetched 2026-10-07.","reportedAt":"2026-10-07T12:45:00Z","sha":null,"source":"firebase-hosting-release"},"freelancer-crm":{"deployedAt":"2026-09-30T21:27:02Z","note":"Latest SUCCEEDED rollout of App Hosting backend freelancer-crm-1 (real rollout history, fetched 2026-10-07). freelancer-crm.web.app 404s; this backend URL is the real live target.","reportedAt":"2026-10-07T12:45:00Z","sha":null,"source":"apphosting-rollout"},"life-os-dashboard":{"deployedAt":"2026-09-30T20:15:17Z","note":"Latest SUCCEEDED rollout of App Hosting backend life-os-dashboard-1 (real rollout history, fetched 2026-10-07). An earlier 19:58:20Z rollout that day FAILED; the 20:15:17Z rollout picked up the 20:15:15Z push.","reportedAt":"2026-10-07T12:45:00Z","sha":null,"source":"apphosting-rollout"},"personal-finance-os":{"deployedAt":"2026-10-04T12:43:05Z","note":"Decoded from the Firebase Hosting release ID (sites/personal-finance-os/releases/1791117785626000); last-known-live from real release history, fetched 2026-10-07.","reportedAt":"2026-10-07T12:45:00Z","sha":null,"source":"firebase-hosting-release"},"regulatory-change-radar":{"deployedAt":"2026-10-01T14:16:32Z","note":"Latest SUCCEEDED rollout of App Hosting backend regulatory-change-radar-1 (real rollout history, fetched 2026-10-07). No rollouts after 2026-10-01 — the silent auto-build failure this tool exists to catch.","reportedAt":"2026-10-07T12:45:00Z","sha":null,"source":"apphosting-rollout"}}}
+{
+ "stamps": {
+  "ai-trading-terminal": {
+   "deployedAt": "2026-10-04T13:02:42Z",
+   "note": "Decoded from the Firebase Hosting release ID (sites/ai-trading-terminal/releases/1791118962959000); last-known-live from real release history, fetched 2026-10-07.",
+   "reportedAt": "2026-10-07T12:45:00Z",
+   "sha": null,
+   "source": "firebase-hosting-release"
+  },
+  "creator-analytics-studio": {
+   "deployedAt": "2026-10-05T13:19:46Z",
+   "note": "Decoded from the Firebase Hosting release ID (sites/creator-analytics-studio/releases/1791206386479000); last-known-live from real release history, fetched 2026-10-07.",
+   "reportedAt": "2026-10-07T12:45:00Z",
+   "sha": null,
+   "source": "firebase-hosting-release"
+  },
+  "f1-race-weekend-os": {
+   "deployedAt": "2026-10-06T12:58:54Z",
+   "note": "Decoded from the Firebase Hosting release ID (sites/f1-race-weekend-os/releases/1791291534611000); last-known-live from real release history, fetched 2026-10-07.",
+   "reportedAt": "2026-10-07T12:45:00Z",
+   "sha": null,
+   "source": "firebase-hosting-release"
+  },
+  "field-manual": {
+   "deployedAt": "2026-10-06T12:01:02Z",
+   "note": "Decoded from the Firebase Hosting release ID (sites/aadit-field-manual/releases/1791288062354000, microsecond timestamp); last-known-live from real release history, fetched 2026-10-07.",
+   "reportedAt": "2026-10-07T12:45:00Z",
+   "sha": null,
+   "source": "firebase-hosting-release"
+  },
+  "freelancer-crm": {
+   "deployedAt": "2026-09-30T21:27:02Z",
+   "note": "Latest SUCCEEDED rollout of App Hosting backend freelancer-crm-1 (real rollout history, fetched 2026-10-07). freelancer-crm.web.app 404s; this backend URL is the real live target.",
+   "reportedAt": "2026-10-07T12:45:00Z",
+   "sha": null,
+   "source": "apphosting-rollout"
+  },
+  "life-os-dashboard": {
+   "deployedAt": "2026-09-30T20:15:17Z",
+   "note": "Latest SUCCEEDED rollout of App Hosting backend life-os-dashboard-1 (real rollout history, fetched 2026-10-07). An earlier 19:58:20Z rollout that day FAILED; the 20:15:17Z rollout picked up the 20:15:15Z push.",
+   "reportedAt": "2026-10-07T12:45:00Z",
+   "sha": null,
+   "source": "apphosting-rollout"
+  },
+  "personal-finance-os": {
+   "deployedAt": "2026-10-04T12:43:05Z",
+   "note": "Decoded from the Firebase Hosting release ID (sites/personal-finance-os/releases/1791117785626000); last-known-live from real release history, fetched 2026-10-07.",
+   "reportedAt": "2026-10-07T12:45:00Z",
+   "sha": null,
+   "source": "firebase-hosting-release"
+  },
+  "regulatory-change-radar": {
+   "deployedAt": "2026-10-01T14:16:32Z",
+   "note": "Latest SUCCEEDED rollout of App Hosting backend regulatory-change-radar-1 (real rollout history, fetched 2026-10-07). No rollouts after 2026-10-01 \u2014 the silent auto-build failure this tool exists to catch.",
+   "reportedAt": "2026-10-07T12:45:00Z",
+   "sha": null,
+   "source": "apphosting-rollout"
+  },
+  "ai-sales-research-agent": {
+   "deployedAt": "2026-10-15T12:59:59Z",
+   "source": "manual-report",
+   "sha": "63a6086",
+   "reportedAt": "2026-10-15T12:59:59Z",
+   "note": "Reported by the operator after a manual deploy."
+  }
+ }
+}
