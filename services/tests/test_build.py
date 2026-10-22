@@ -1,5 +1,8 @@
 """Tests for the fleet build: repo views and alert assembly."""
 
+from datetime import timedelta
+
+from services import iso_z, utcnow
 from services.main import build_alerts, build_repo_view
 
 
@@ -58,10 +61,14 @@ def test_view_unknown_without_stamp():
 
 
 def test_view_marks_stale_prs():
+    # The "fresh" PR is anchored 3 days before the actual run time so it stays
+    # non-stale forever; the hard-coded 2026-10-06 fixture below became stale
+    # on 2026-10-20 and made this test a time bomb.
+    fresh_at = iso_z(utcnow() - timedelta(days=3))
     gh = _gh(openPulls=[
         {"number": 3, "title": "Bump deps", "updatedAt": "2026-09-01T00:00:00Z",
          "url": "https://example.com/pr/3", "author": "dependabot"},
-        {"number": 4, "title": "Fresh PR", "updatedAt": "2026-10-06T00:00:00Z",
+        {"number": 4, "title": "Fresh PR", "updatedAt": fresh_at,
          "url": "https://example.com/pr/4", "author": "aadit"},
     ])
     v = build_repo_view(_entry(), gh, _stamp())
