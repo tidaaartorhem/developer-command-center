@@ -38,10 +38,50 @@ repos:
     live_url: https://f1-race-weekend-os.web.app
     target_kind: firebase-hosting
     notes: Shipped 2026-10-06.
+  - name: ai-product-analytics-canvas
+    live_url: https://ai-product-analytics-canvas.web.app
+    target_kind: firebase-hosting
+    notes: Shipped 2026-10-08. Firebase Hosting site ai-product-analytics-canvas.
+  - name: travel-command-center
+    live_url: https://travel-command-center.web.app
+    target_kind: firebase-hosting
+    notes: Shipped 2026-10-09. Firebase Hosting site travel-command-center.
+  - name: ai-email-operations-agent
+    live_url: https://ai-email-operations-agent.web.app
+    target_kind: firebase-hosting
+    notes: Shipped 2026-10-10. Firebase Hosting site ai-email-operations-agent.
+  - name: ai-invoice-processing-agent
+    live_url: https://ai-invoice-processing-agent.web.app
+    target_kind: firebase-hosting
+    notes: Shipped 2026-10-11. Firebase Hosting site ai-invoice-processing-agent.
+  - name: ai-customer-support-action-agent
+    live_url: https://ai-customer-support-action-agent.web.app
+    target_kind: firebase-hosting
+    notes: Shipped 2026-10-12. Firebase Hosting site ai-customer-support-action-agent.
+  - name: ai-meeting-to-execution-agent
+    live_url: https://ai-meeting-to-execution-agent.web.app
+    target_kind: firebase-hosting
+    notes: Shipped 2026-10-13. Firebase Hosting site ai-meeting-to-execution-agent.
+  - name: ai-insurance-submission-agent
+    live_url: https://ai-insurance-submission-agent.web.app
+    target_kind: firebase-hosting
+    notes: Shipped 2026-10-14. Firebase Hosting site ai-insurance-submission-agent.
   - name: ai-sales-research-agent
     live_url: https://ai-sales-research-agent.web.app
     target_kind: firebase-hosting
     notes: Shipped 2026-10-15. Firebase Hosting site ai-sales-research-agent.
+  - name: ai-recruiting-coordinator
+    live_url: https://ai-recruiting-coordinator.web.app
+    target_kind: firebase-hosting
+    notes: Shipped 2026-10-16. Firebase Hosting site ai-recruiting-coordinator.
+  - name: ai-property-management-agent
+    live_url: https://ai-property-management-agent.web.app
+    target_kind: firebase-hosting
+    notes: Shipped 2026-10-17. Firebase Hosting site ai-property-management-agent.
+  - name: ai-rfp-response-agent
+    live_url: https://ai-rfp-response-agent.web.app
+    target_kind: firebase-hosting
+    notes: Shipped 2026-10-18. Firebase Hosting site ai-rfp-response-agent.
 drift:
   # A push is STALE when the latest main commit is newer than the last known live stamp.
   # No grace period: any post-deploy commit is flagged, with the exact gap shown so the
