@@ -15,9 +15,9 @@
    "source": "firebase-hosting-release"
   },
   "f1-race-weekend-os": {
-   "deployedAt": "2026-10-06T12:58:54Z",
-   "note": "Decoded from the Firebase Hosting release ID (sites/f1-race-weekend-os/releases/1791291534611000); last-known-live from real release history, fetched 2026-10-07.",
-   "reportedAt": "2026-10-07T12:45:00Z",
+   "deployedAt": "2026-10-21T12:45:31Z",
+   "note": "Decoded from the Firebase Hosting release ID (sites/f1-race-weekend-os/releases/1792586731536000, microsecond timestamp); last-known-live from real release history, fetched 2026-10-22. The 2026-10-07 stamp (2026-10-06T12:58:54Z) was stale \u2014 the site was redeployed on 2026-10-21 during the Singapore GP refresh and the stamp was never updated; caught by today's fleet re-verification.",
+   "reportedAt": "2026-10-22T12:50:00Z",
    "sha": null,
    "source": "firebase-hosting-release"
   },
@@ -62,6 +62,76 @@
    "sha": "63a6086",
    "reportedAt": "2026-10-15T12:59:59Z",
    "note": "Reported by the operator after a manual deploy."
+  },
+  "ai-product-analytics-canvas": {
+   "deployedAt": "2026-10-08T12:53:08Z",
+   "note": "Decoded from the Firebase Hosting release ID (sites/ai-product-analytics-canvas/releases/1791463988595000, microsecond timestamp); last-known-live from real release history, fetched 2026-10-22.",
+   "reportedAt": "2026-10-22T12:44:55Z",
+   "sha": null,
+   "source": "firebase-hosting-release"
+  },
+  "travel-command-center": {
+   "deployedAt": "2026-10-09T12:53:40Z",
+   "note": "Decoded from the Firebase Hosting release ID (sites/travel-command-center/releases/1791550420794000, microsecond timestamp); last-known-live from real release history, fetched 2026-10-22.",
+   "reportedAt": "2026-10-22T12:44:55Z",
+   "sha": null,
+   "source": "firebase-hosting-release"
+  },
+  "ai-email-operations-agent": {
+   "deployedAt": "2026-10-10T12:54:09Z",
+   "note": "Decoded from the Firebase Hosting release ID (sites/ai-email-operations-agent/releases/1791636849847000, microsecond timestamp); last-known-live from real release history, fetched 2026-10-22.",
+   "reportedAt": "2026-10-22T12:44:55Z",
+   "sha": null,
+   "source": "firebase-hosting-release"
+  },
+  "ai-invoice-processing-agent": {
+   "deployedAt": "2026-10-11T13:14:01Z",
+   "note": "Decoded from the Firebase Hosting release ID (sites/ai-invoice-processing-agent/releases/1791724441228000, microsecond timestamp); last-known-live from real release history, fetched 2026-10-22.",
+   "reportedAt": "2026-10-22T12:44:55Z",
+   "sha": null,
+   "source": "firebase-hosting-release"
+  },
+  "ai-customer-support-action-agent": {
+   "deployedAt": "2026-10-12T13:38:53Z",
+   "note": "Decoded from the Firebase Hosting release ID (sites/ai-customer-support-action-agent/releases/1791812333045000, microsecond timestamp); last-known-live from real release history, fetched 2026-10-22.",
+   "reportedAt": "2026-10-22T12:44:55Z",
+   "sha": null,
+   "source": "firebase-hosting-release"
+  },
+  "ai-meeting-to-execution-agent": {
+   "deployedAt": "2026-10-13T13:10:01Z",
+   "note": "Decoded from the Firebase Hosting release ID (sites/ai-meeting-to-execution-agent/releases/1791897001810000, microsecond timestamp); last-known-live from real release history, fetched 2026-10-22.",
+   "reportedAt": "2026-10-22T12:44:55Z",
+   "sha": null,
+   "source": "firebase-hosting-release"
+  },
+  "ai-recruiting-coordinator": {
+   "deployedAt": "2026-10-16T12:53:57Z",
+   "note": "Decoded from the Firebase Hosting release ID (sites/ai-recruiting-coordinator/releases/1792155237729000, microsecond timestamp); last-known-live from real release history, fetched 2026-10-22.",
+   "reportedAt": "2026-10-22T12:44:55Z",
+   "sha": null,
+   "source": "firebase-hosting-release"
+  },
+  "ai-property-management-agent": {
+   "deployedAt": "2026-10-17T12:52:39Z",
+   "note": "Decoded from the Firebase Hosting release ID (sites/ai-property-management-agent/releases/1792241559738000, microsecond timestamp); last-known-live from real release history, fetched 2026-10-22.",
+   "reportedAt": "2026-10-22T12:44:55Z",
+   "sha": null,
+   "source": "firebase-hosting-release"
+  },
+  "ai-rfp-response-agent": {
+   "deployedAt": "2026-10-18T12:53:12Z",
+   "note": "Decoded from the Firebase Hosting release ID (sites/ai-rfp-response-agent/releases/1792327992419000, microsecond timestamp); last-known-live from real release history, fetched 2026-10-22.",
+   "reportedAt": "2026-10-22T12:44:55Z",
+   "sha": null,
+   "source": "firebase-hosting-release"
+  },
+  "ai-insurance-submission-agent": {
+   "deployedAt": "2026-10-14T12:58:19Z",
+   "note": "Decoded from the Firebase Hosting release ID (sites/ai-insurance-submission-agent/releases/1791982699070000, microsecond timestamp); last-known-live from real release history, fetched 2026-10-22.",
+   "reportedAt": "2026-10-22T12:44:55Z",
+   "sha": null,
+   "source": "firebase-hosting-release"
   }
  }
 }
