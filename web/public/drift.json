@@ -1,6 +1,28 @@
 {
- "computedAt": "2026-10-07T12:53:23Z",
+ "computedAt": "2026-10-22T12:53:03Z",
  "stale": [
+  {
+   "repo": "life-os-dashboard",
+   "liveUrl": "https://life-os-dashboard-1--truth-or-shots.us-east4.hosted.app",
+   "githubUrl": "https://github.com/tidaaartorhem/life-os-dashboard",
+   "status": "STALE",
+   "gapText": "pushed 18d 16h after last deploy",
+   "evidence": "Latest main commit (2026-10-19T12:45:41Z) is newer than the last known live stamp (2026-09-30T20:15:17Z) \u2014 pushed 18d 16h after the last deploy finished.",
+   "committedAt": "2026-10-19T12:45:41Z",
+   "deployedAt": "2026-09-30T20:15:17Z",
+   "message": "docs: document the demo data reset feature"
+  },
+  {
+   "repo": "freelancer-crm",
+   "liveUrl": "https://freelancer-crm-1--truth-or-shots.us-east4.hosted.app",
+   "githubUrl": "https://github.com/tidaaartorhem/freelancer-crm",
+   "status": "STALE",
+   "gapText": "pushed 19d 15h after last deploy",
+   "evidence": "Latest main commit (2026-10-20T12:45:54Z) is newer than the last known live stamp (2026-09-30T21:27:02Z) \u2014 pushed 19d 15h after the last deploy finished.",
+   "committedAt": "2026-10-20T12:45:54Z",
+   "deployedAt": "2026-09-30T21:27:02Z",
+   "message": "docs: document the demo data reset and the shared overdue rule"
+  },
   {
    "repo": "ai-trading-terminal",
    "liveUrl": "https://ai-trading-terminal.web.app",
@@ -17,36 +39,80 @@
    "liveUrl": "https://f1-race-weekend-os.web.app",
    "githubUrl": "https://github.com/tidaaartorhem/f1-race-weekend-os",
    "status": "STALE",
-   "gapText": "pushed 36s after last deploy",
-   "evidence": "Latest main commit (2026-10-06T12:59:30Z) is newer than the last known live stamp (2026-10-06T12:58:54Z) \u2014 pushed 36s after the last deploy finished.",
-   "committedAt": "2026-10-06T12:59:30Z",
-   "deployedAt": "2026-10-06T12:58:54Z",
-   "message": "refresh built JSONs to match the deployed build (computedAt only)"
+   "gapText": "pushed 16s after last deploy",
+   "evidence": "Latest main commit (2026-10-21T12:45:47Z) is newer than the last known live stamp (2026-10-21T12:45:31Z) \u2014 pushed 16s after the last deploy finished.",
+   "committedAt": "2026-10-21T12:45:47Z",
+   "deployedAt": "2026-10-21T12:45:31Z",
+   "message": "README: Singapore GP edition (story, bullets, layout, notes)"
+  },
+  {
+   "repo": "ai-product-analytics-canvas",
+   "liveUrl": "https://ai-product-analytics-canvas.web.app",
+   "githubUrl": "https://github.com/tidaaartorhem/ai-product-analytics-canvas",
+   "status": "STALE",
+   "gapText": "pushed 9s after last deploy",
+   "evidence": "Latest main commit (2026-10-08T12:53:17Z) is newer than the last known live stamp (2026-10-08T12:53:08Z) \u2014 pushed 9s after the last deploy finished.",
+   "committedAt": "2026-10-08T12:53:17Z",
+   "deployedAt": "2026-10-08T12:53:08Z",
+   "message": "frontend: funnel canvas UI \u2014 funnel, segments, leak board, hypotheses, week-over-week, monday brief"
+  },
+  {
+   "repo": "ai-email-operations-agent",
+   "liveUrl": "https://ai-email-operations-agent.web.app",
+   "githubUrl": "https://github.com/tidaaartorhem/ai-email-operations-agent",
+   "status": "STALE",
+   "gapText": "pushed 4s after last deploy",
+   "evidence": "Latest main commit (2026-10-10T12:54:13Z) is newer than the last known live stamp (2026-10-10T12:54:09Z) \u2014 pushed 4s after the last deploy finished.",
+   "committedAt": "2026-10-10T12:54:13Z",
+   "deployedAt": "2026-10-10T12:54:09Z",
+   "message": "deploy: firebaserc for portfolio-3da31 hosting"
+  },
+  {
+   "repo": "ai-invoice-processing-agent",
+   "liveUrl": "https://ai-invoice-processing-agent.web.app",
+   "githubUrl": "https://github.com/tidaaartorhem/ai-invoice-processing-agent",
+   "status": "STALE",
+   "gapText": "pushed 6m 47s after last deploy",
+   "evidence": "Latest main commit (2026-10-11T13:20:48Z) is newer than the last known live stamp (2026-10-11T13:14:01Z) \u2014 pushed 6m 47s after the last deploy finished.",
+   "committedAt": "2026-10-11T13:20:48Z",
+   "deployedAt": "2026-10-11T13:14:01Z",
+   "message": "docs: 5-minute Monday-morning walkthrough script"
+  },
+  {
+   "repo": "ai-customer-support-action-agent",
+   "liveUrl": "https://ai-customer-support-action-agent.web.app",
+   "githubUrl": "https://github.com/tidaaartorhem/ai-customer-support-action-agent",
+   "status": "STALE",
+   "gapText": "pushed 31s after last deploy",
+   "evidence": "Latest main commit (2026-10-12T13:39:24Z) is newer than the last known live stamp (2026-10-12T13:38:53Z) \u2014 pushed 31s after the last deploy finished.",
+   "committedAt": "2026-10-12T13:39:24Z",
+   "deployedAt": "2026-10-12T13:38:53Z",
+   "message": "deploy: firebase.json for hosting site ai-customer-support-action-agent (live)"
+  },
+  {
+   "repo": "ai-meeting-to-execution-agent",
+   "liveUrl": "https://ai-meeting-to-execution-agent.web.app",
+   "githubUrl": "https://github.com/tidaaartorhem/ai-meeting-to-execution-agent",
+   "status": "STALE",
+   "gapText": "pushed 1m 29s after last deploy",
+   "evidence": "Latest main commit (2026-10-13T13:11:30Z) is newer than the last known live stamp (2026-10-13T13:10:01Z) \u2014 pushed 1m 29s after the last deploy finished.",
+   "committedAt": "2026-10-13T13:11:30Z",
+   "deployedAt": "2026-10-13T13:10:01Z",
+   "message": "data: 171 AMI meetings (speaker-separated + merged archival), 11MB"
+  },
+  {
+   "repo": "ai-recruiting-coordinator",
+   "liveUrl": "https://ai-recruiting-coordinator.web.app",
+   "githubUrl": "https://github.com/tidaaartorhem/ai-recruiting-coordinator",
+   "status": "STALE",
+   "gapText": "pushed 2m 15s after last deploy",
+   "evidence": "Latest main commit (2026-10-16T12:56:12Z) is newer than the last known live stamp (2026-10-16T12:53:57Z) \u2014 pushed 2m 15s after the last deploy finished.",
+   "committedAt": "2026-10-16T12:56:12Z",
+   "deployedAt": "2026-10-16T12:53:57Z",
+   "message": "README (problem space, disclosed weights, seeded scenario, real-data findings) + build fixes"
   }
  ],
  "live": [
-  {
-   "repo": "life-os-dashboard",
-   "liveUrl": "https://life-os-dashboard-1--truth-or-shots.us-east4.hosted.app",
-   "githubUrl": "https://github.com/tidaaartorhem/life-os-dashboard",
-   "status": "LIVE",
-   "gapText": "deployed 5s after last push",
-   "evidence": "Last known live stamp (2026-09-30T20:15:17Z) covers the latest main commit (2026-09-30T20:15:12Z).",
-   "committedAt": "2026-09-30T20:15:12Z",
-   "deployedAt": "2026-09-30T20:15:17Z",
-   "message": "docs: add live demo link to README"
-  },
-  {
-   "repo": "freelancer-crm",
-   "liveUrl": "https://freelancer-crm-1--truth-or-shots.us-east4.hosted.app",
-   "githubUrl": "https://github.com/tidaaartorhem/freelancer-crm",
-   "status": "LIVE",
-   "gapText": "deployed 1h 38m after last push",
-   "evidence": "Last known live stamp (2026-09-30T21:27:02Z) covers the latest main commit (2026-09-30T19:48:18Z).",
-   "committedAt": "2026-09-30T19:48:18Z",
-   "deployedAt": "2026-09-30T21:27:02Z",
-   "message": "chore: prepare Firebase App Hosting deploy (seed DB at build, apphosting.yaml)"
-  },
   {
    "repo": "regulatory-change-radar",
    "liveUrl": "https://regulatory-change-radar-1--truth-or-shots.us-east4.hosted.app",
@@ -90,6 +156,61 @@
    "committedAt": "2026-10-05T13:18:15Z",
    "deployedAt": "2026-10-05T13:19:46Z",
    "message": "docs: README \u2014 problem space, scoring rules, data sources, honest limitations"
+  },
+  {
+   "repo": "travel-command-center",
+   "liveUrl": "https://travel-command-center.web.app",
+   "githubUrl": "https://github.com/tidaaartorhem/travel-command-center",
+   "status": "LIVE",
+   "gapText": "deployed 18s after last push",
+   "evidence": "Last known live stamp (2026-10-09T12:53:40Z) covers the latest main commit (2026-10-09T12:53:22Z).",
+   "committedAt": "2026-10-09T12:53:22Z",
+   "deployedAt": "2026-10-09T12:53:40Z",
+   "message": "a11y: trip cards keyboard-operable with ARIA label"
+  },
+  {
+   "repo": "ai-insurance-submission-agent",
+   "liveUrl": "https://ai-insurance-submission-agent.web.app",
+   "githubUrl": "https://github.com/tidaaartorhem/ai-insurance-submission-agent",
+   "status": "LIVE",
+   "gapText": "deployed 35s after last push",
+   "evidence": "Last known live stamp (2026-10-14T12:58:19Z) covers the latest main commit (2026-10-14T12:57:44Z).",
+   "committedAt": "2026-10-14T12:57:44Z",
+   "deployedAt": "2026-10-14T12:58:19Z",
+   "message": "README + firebase hosting config"
+  },
+  {
+   "repo": "ai-sales-research-agent",
+   "liveUrl": "https://ai-sales-research-agent.web.app",
+   "githubUrl": "https://github.com/tidaaartorhem/ai-sales-research-agent",
+   "status": "LIVE",
+   "gapText": "deployed 2m 48s after last push",
+   "evidence": "Last known live stamp (2026-10-15T12:59:59Z) covers the latest main commit (2026-10-15T12:57:11Z).",
+   "committedAt": "2026-10-15T12:57:11Z",
+   "deployedAt": "2026-10-15T12:59:59Z",
+   "message": "refresh: briefs regenerated by pipeline during web build"
+  },
+  {
+   "repo": "ai-property-management-agent",
+   "liveUrl": "https://ai-property-management-agent.web.app",
+   "githubUrl": "https://github.com/tidaaartorhem/ai-property-management-agent",
+   "status": "LIVE",
+   "gapText": "deployed 28s after last push",
+   "evidence": "Last known live stamp (2026-10-17T12:52:39Z) covers the latest main commit (2026-10-17T12:52:11Z).",
+   "committedAt": "2026-10-17T12:52:11Z",
+   "deployedAt": "2026-10-17T12:52:39Z",
+   "message": "Rebuild public data payloads at deploy time"
+  },
+  {
+   "repo": "ai-rfp-response-agent",
+   "liveUrl": "https://ai-rfp-response-agent.web.app",
+   "githubUrl": "https://github.com/tidaaartorhem/ai-rfp-response-agent",
+   "status": "LIVE",
+   "gapText": "deployed 44s after last push",
+   "evidence": "Last known live stamp (2026-10-18T12:53:12Z) covers the latest main commit (2026-10-18T12:52:28Z).",
+   "committedAt": "2026-10-18T12:52:28Z",
+   "deployedAt": "2026-10-18T12:53:12Z",
+   "message": "web: React frontend with in-browser TS matcher mirror, 10 vitest green"
   }
  ],
  "unknown": []

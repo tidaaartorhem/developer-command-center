@@ -1,6 +1,54 @@
 {
- "computedAt": "2026-10-07T12:53:23Z",
+ "computedAt": "2026-10-22T12:53:03Z",
  "alerts": [
+  {
+   "severity": "high",
+   "kind": "drift",
+   "repo": "ai-customer-support-action-agent",
+   "title": "ai-customer-support-action-agent: pushed but not live",
+   "detail": "Latest main commit (2026-10-12T13:39:24Z) is newer than the last known live stamp (2026-10-12T13:38:53Z) \u2014 pushed 31s after the last deploy finished.",
+   "url": "https://ai-customer-support-action-agent.web.app"
+  },
+  {
+   "severity": "high",
+   "kind": "drift",
+   "repo": "ai-email-operations-agent",
+   "title": "ai-email-operations-agent: pushed but not live",
+   "detail": "Latest main commit (2026-10-10T12:54:13Z) is newer than the last known live stamp (2026-10-10T12:54:09Z) \u2014 pushed 4s after the last deploy finished.",
+   "url": "https://ai-email-operations-agent.web.app"
+  },
+  {
+   "severity": "high",
+   "kind": "drift",
+   "repo": "ai-invoice-processing-agent",
+   "title": "ai-invoice-processing-agent: pushed but not live",
+   "detail": "Latest main commit (2026-10-11T13:20:48Z) is newer than the last known live stamp (2026-10-11T13:14:01Z) \u2014 pushed 6m 47s after the last deploy finished.",
+   "url": "https://ai-invoice-processing-agent.web.app"
+  },
+  {
+   "severity": "high",
+   "kind": "drift",
+   "repo": "ai-meeting-to-execution-agent",
+   "title": "ai-meeting-to-execution-agent: pushed but not live",
+   "detail": "Latest main commit (2026-10-13T13:11:30Z) is newer than the last known live stamp (2026-10-13T13:10:01Z) \u2014 pushed 1m 29s after the last deploy finished.",
+   "url": "https://ai-meeting-to-execution-agent.web.app"
+  },
+  {
+   "severity": "high",
+   "kind": "drift",
+   "repo": "ai-product-analytics-canvas",
+   "title": "ai-product-analytics-canvas: pushed but not live",
+   "detail": "Latest main commit (2026-10-08T12:53:17Z) is newer than the last known live stamp (2026-10-08T12:53:08Z) \u2014 pushed 9s after the last deploy finished.",
+   "url": "https://ai-product-analytics-canvas.web.app"
+  },
+  {
+   "severity": "high",
+   "kind": "drift",
+   "repo": "ai-recruiting-coordinator",
+   "title": "ai-recruiting-coordinator: pushed but not live",
+   "detail": "Latest main commit (2026-10-16T12:56:12Z) is newer than the last known live stamp (2026-10-16T12:53:57Z) \u2014 pushed 2m 15s after the last deploy finished.",
+   "url": "https://ai-recruiting-coordinator.web.app"
+  },
   {
    "severity": "high",
    "kind": "drift",
@@ -14,8 +62,24 @@
    "kind": "drift",
    "repo": "f1-race-weekend-os",
    "title": "f1-race-weekend-os: pushed but not live",
-   "detail": "Latest main commit (2026-10-06T12:59:30Z) is newer than the last known live stamp (2026-10-06T12:58:54Z) \u2014 pushed 36s after the last deploy finished.",
+   "detail": "Latest main commit (2026-10-21T12:45:47Z) is newer than the last known live stamp (2026-10-21T12:45:31Z) \u2014 pushed 16s after the last deploy finished.",
    "url": "https://f1-race-weekend-os.web.app"
+  },
+  {
+   "severity": "high",
+   "kind": "drift",
+   "repo": "freelancer-crm",
+   "title": "freelancer-crm: pushed but not live",
+   "detail": "Latest main commit (2026-10-20T12:45:54Z) is newer than the last known live stamp (2026-09-30T21:27:02Z) \u2014 pushed 19d 15h after the last deploy finished.",
+   "url": "https://freelancer-crm-1--truth-or-shots.us-east4.hosted.app"
+  },
+  {
+   "severity": "high",
+   "kind": "drift",
+   "repo": "life-os-dashboard",
+   "title": "life-os-dashboard: pushed but not live",
+   "detail": "Latest main commit (2026-10-19T12:45:41Z) is newer than the last known live stamp (2026-09-30T20:15:17Z) \u2014 pushed 18d 16h after the last deploy finished.",
+   "url": "https://life-os-dashboard-1--truth-or-shots.us-east4.hosted.app"
   }
  ]
 }
