@@ -82,6 +82,10 @@ repos:
     live_url: https://ai-rfp-response-agent.web.app
     target_kind: firebase-hosting
     notes: Shipped 2026-10-18. Firebase Hosting site ai-rfp-response-agent.
+  - name: ai-compliance-evidence-agent
+    live_url: https://ai-compliance-evidence-agent.web.app
+    target_kind: firebase-hosting
+    notes: Shipped 2026-10-23. Firebase Hosting site ai-compliance-evidence-agent.
 drift:
   # A push is STALE when the latest main commit is newer than the last known live stamp.
   # No grace period: any post-deploy commit is flagged, with the exact gap shown so the

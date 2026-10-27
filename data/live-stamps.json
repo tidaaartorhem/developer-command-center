@@ -1,9 +1,9 @@
 {
  "stamps": {
   "ai-trading-terminal": {
-   "deployedAt": "2026-10-04T13:02:42Z",
-   "note": "Decoded from the Firebase Hosting release ID (sites/ai-trading-terminal/releases/1791118962959000); last-known-live from real release history, fetched 2026-10-07.",
-   "reportedAt": "2026-10-07T12:45:00Z",
+   "deployedAt": "2026-10-25T12:43:51Z",
+   "note": "Decoded from the Firebase Hosting release ID (sites/ai-trading-terminal/releases/1792932231949000, microsecond timestamp); last-known-live from real release history, fetched 2026-10-27.",
+   "reportedAt": "2026-10-27T12:42:00Z",
    "sha": null,
    "source": "firebase-hosting-release"
   },
@@ -43,9 +43,9 @@
    "source": "apphosting-rollout"
   },
   "personal-finance-os": {
-   "deployedAt": "2026-10-04T12:43:05Z",
-   "note": "Decoded from the Firebase Hosting release ID (sites/personal-finance-os/releases/1791117785626000); last-known-live from real release history, fetched 2026-10-07.",
-   "reportedAt": "2026-10-07T12:45:00Z",
+   "deployedAt": "2026-10-24T12:42:57Z",
+   "note": "Decoded from the Firebase Hosting release ID (sites/personal-finance-os/releases/1792845777355000, microsecond timestamp); last-known-live from real release history, fetched 2026-10-27.",
+   "reportedAt": "2026-10-27T12:42:00Z",
    "sha": null,
    "source": "firebase-hosting-release"
   },
@@ -113,9 +113,9 @@
    "source": "firebase-hosting-release"
   },
   "ai-property-management-agent": {
-   "deployedAt": "2026-10-17T12:52:39Z",
-   "note": "Decoded from the Firebase Hosting release ID (sites/ai-property-management-agent/releases/1792241559738000, microsecond timestamp); last-known-live from real release history, fetched 2026-10-22.",
-   "reportedAt": "2026-10-22T12:44:55Z",
+   "deployedAt": "2026-10-26T12:45:19Z",
+   "note": "Decoded from the Firebase Hosting release ID (sites/ai-property-management-agent/releases/1793018719280000, microsecond timestamp); last-known-live from real release history, fetched 2026-10-27.",
+   "reportedAt": "2026-10-27T12:42:00Z",
    "sha": null,
    "source": "firebase-hosting-release"
   },
@@ -130,6 +130,13 @@
    "deployedAt": "2026-10-14T12:58:19Z",
    "note": "Decoded from the Firebase Hosting release ID (sites/ai-insurance-submission-agent/releases/1791982699070000, microsecond timestamp); last-known-live from real release history, fetched 2026-10-22.",
    "reportedAt": "2026-10-22T12:44:55Z",
+   "sha": null,
+   "source": "firebase-hosting-release"
+  },
+  "ai-compliance-evidence-agent": {
+   "deployedAt": "2026-10-23T12:53:13Z",
+   "note": "Decoded from the Firebase Hosting release ID (sites/ai-compliance-evidence-agent/releases/1792759993718000, microsecond timestamp); last-known-live from real release history, fetched 2026-10-27.",
+   "reportedAt": "2026-10-27T12:42:00Z",
    "sha": null,
    "source": "firebase-hosting-release"
   }

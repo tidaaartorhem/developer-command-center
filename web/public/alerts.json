@@ -1,5 +1,5 @@
 {
- "computedAt": "2026-10-22T12:53:03Z",
+ "computedAt": "2026-10-27T12:47:22Z",
  "alerts": [
   {
    "severity": "high",
@@ -48,14 +48,6 @@
    "title": "ai-recruiting-coordinator: pushed but not live",
    "detail": "Latest main commit (2026-10-16T12:56:12Z) is newer than the last known live stamp (2026-10-16T12:53:57Z) \u2014 pushed 2m 15s after the last deploy finished.",
    "url": "https://ai-recruiting-coordinator.web.app"
-  },
-  {
-   "severity": "high",
-   "kind": "drift",
-   "repo": "ai-trading-terminal",
-   "title": "ai-trading-terminal: pushed but not live",
-   "detail": "Latest main commit (2026-10-04T13:04:19Z) is newer than the last known live stamp (2026-10-04T13:02:42Z) \u2014 pushed 1m 37s after the last deploy finished.",
-   "url": "https://ai-trading-terminal.web.app"
   },
   {
    "severity": "high",

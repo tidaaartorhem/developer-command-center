@@ -18,7 +18,7 @@ Developer Command Center closes that gap. It is a fleet command center that trac
 
 ## Real data, honestly labeled
 
-This repo is seeded with a real 19-repo fleet and real fetched state — no invented numbers anywhere:
+This repo is seeded with a real 20-repo fleet and real fetched state — no invented numbers anywhere:
 
 - GitHub state (latest commits, Actions runs, open/stale PRs, Dependabot alerts, deployment records) is fetched live from the GitHub REST API by `services/main.py sync`.
 - Live stamps come from **real deploy history**: Firebase Hosting release IDs (which encode microsecond deploy timestamps) for the Hosting sites, and real App Hosting rollout history for the App Hosting backends. Each stamp records its source; stamps fetched from provider history are labeled last-known-live, not cryptographically verified.

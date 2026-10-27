@@ -1,5 +1,5 @@
 {
- "computedAt": "2026-10-22T12:53:03Z",
+ "computedAt": "2026-10-27T12:47:22Z",
  "stale": [
   {
    "repo": "life-os-dashboard",
@@ -22,17 +22,6 @@
    "committedAt": "2026-10-20T12:45:54Z",
    "deployedAt": "2026-09-30T21:27:02Z",
    "message": "docs: document the demo data reset and the shared overdue rule"
-  },
-  {
-   "repo": "ai-trading-terminal",
-   "liveUrl": "https://ai-trading-terminal.web.app",
-   "githubUrl": "https://github.com/tidaaartorhem/ai-trading-terminal",
-   "status": "STALE",
-   "gapText": "pushed 1m 37s after last deploy",
-   "evidence": "Latest main commit (2026-10-04T13:04:19Z) is newer than the last known live stamp (2026-10-04T13:02:42Z) \u2014 pushed 1m 37s after the last deploy finished.",
-   "committedAt": "2026-10-04T13:04:19Z",
-   "deployedAt": "2026-10-04T13:02:42Z",
-   "message": "chore: ignore firebase deploy cache"
   },
   {
    "repo": "f1-race-weekend-os",
@@ -140,11 +129,22 @@
    "liveUrl": "https://personal-finance-os.web.app",
    "githubUrl": "https://github.com/tidaaartorhem/personal-finance-os",
    "status": "LIVE",
-   "gapText": "deployed 23h 53m after last push",
-   "evidence": "Last known live stamp (2026-10-04T12:43:05Z) covers the latest main commit (2026-10-03T12:49:35Z).",
-   "committedAt": "2026-10-03T12:49:35Z",
-   "deployedAt": "2026-10-04T12:43:05Z",
-   "message": "docs: README problem-first rewrite and polish"
+   "gapText": "deployed 18s after last push",
+   "evidence": "Last known live stamp (2026-10-24T12:42:57Z) covers the latest main commit (2026-10-24T12:42:39Z).",
+   "committedAt": "2026-10-24T12:42:39Z",
+   "deployedAt": "2026-10-24T12:42:57Z",
+   "message": "feat(cashflow): lean-month safe spend and income volatility"
+  },
+  {
+   "repo": "ai-trading-terminal",
+   "liveUrl": "https://ai-trading-terminal.web.app",
+   "githubUrl": "https://github.com/tidaaartorhem/ai-trading-terminal",
+   "status": "LIVE",
+   "gapText": "deployed 43s after last push",
+   "evidence": "Last known live stamp (2026-10-25T12:43:51Z) covers the latest main commit (2026-10-25T12:43:08Z).",
+   "committedAt": "2026-10-25T12:43:08Z",
+   "deployedAt": "2026-10-25T12:43:51Z",
+   "message": "fix: Stooq degraded responses fall through to Yahoo instead of failing the build"
   },
   {
    "repo": "creator-analytics-studio",
@@ -195,11 +195,11 @@
    "liveUrl": "https://ai-property-management-agent.web.app",
    "githubUrl": "https://github.com/tidaaartorhem/ai-property-management-agent",
    "status": "LIVE",
-   "gapText": "deployed 28s after last push",
-   "evidence": "Last known live stamp (2026-10-17T12:52:39Z) covers the latest main commit (2026-10-17T12:52:11Z).",
-   "committedAt": "2026-10-17T12:52:11Z",
-   "deployedAt": "2026-10-17T12:52:39Z",
-   "message": "Rebuild public data payloads at deploy time"
+   "gapText": "deployed 49s after last push",
+   "evidence": "Last known live stamp (2026-10-26T12:45:19Z) covers the latest main commit (2026-10-26T12:44:30Z).",
+   "committedAt": "2026-10-26T12:44:30Z",
+   "deployedAt": "2026-10-26T12:45:19Z",
+   "message": "Refresh 311 data to Oct 22-24 slice, replay today Oct 26"
   },
   {
    "repo": "ai-rfp-response-agent",
@@ -211,6 +211,17 @@
    "committedAt": "2026-10-18T12:52:28Z",
    "deployedAt": "2026-10-18T12:53:12Z",
    "message": "web: React frontend with in-browser TS matcher mirror, 10 vitest green"
+  },
+  {
+   "repo": "ai-compliance-evidence-agent",
+   "liveUrl": "https://ai-compliance-evidence-agent.web.app",
+   "githubUrl": "https://github.com/tidaaartorhem/ai-compliance-evidence-agent",
+   "status": "LIVE",
+   "gapText": "deployed 33s after last push",
+   "evidence": "Last known live stamp (2026-10-23T12:53:13Z) covers the latest main commit (2026-10-23T12:52:40Z).",
+   "committedAt": "2026-10-23T12:52:40Z",
+   "deployedAt": "2026-10-23T12:53:13Z",
+   "message": "docs: README with problem space, real-vs-seeded data statement, headline numbers"
   }
  ],
  "unknown": []

@@ -1,5 +1,5 @@
 {
- "computedAt": "2026-10-22T12:53:03Z",
+ "computedAt": "2026-10-27T12:47:22Z",
  "repos": [
   {
    "repo": "life-os-dashboard",
@@ -473,17 +473,24 @@
    "targetLabel": "Firebase Hosting",
    "drift": {
     "status": "LIVE",
-    "gapText": "deployed 23h 53m after last push",
-    "evidence": "Last known live stamp (2026-10-04T12:43:05Z) covers the latest main commit (2026-10-03T12:49:35Z)."
+    "gapText": "deployed 18s after last push",
+    "evidence": "Last known live stamp (2026-10-24T12:42:57Z) covers the latest main commit (2026-10-24T12:42:39Z)."
    },
    "latestCommit": {
-    "sha": "d402cc6",
-    "fullSha": "d402cc6ef75e2569e956b4c6d403eb82c6642eef",
-    "message": "docs: README problem-first rewrite and polish",
-    "committedAt": "2026-10-03T12:49:35Z",
+    "sha": "7bf508c",
+    "fullSha": "7bf508cf8113052aa9e5c071ce0e7ca8922d2f70",
+    "message": "feat(cashflow): lean-month safe spend and income volatility",
+    "committedAt": "2026-10-24T12:42:39Z",
     "author": "Aadit Mehrotra"
    },
    "commitHistory": [
+    {
+     "sha": "7bf508c",
+     "fullSha": "7bf508cf8113052aa9e5c071ce0e7ca8922d2f70",
+     "message": "feat(cashflow): lean-month safe spend and income volatility",
+     "committedAt": "2026-10-24T12:42:39Z",
+     "author": "Aadit Mehrotra"
+    },
     {
      "sha": "d402cc6",
      "fullSha": "d402cc6ef75e2569e956b4c6d403eb82c6642eef",
@@ -559,12 +566,12 @@
    "githubDeployments": 0,
    "githubDeploymentsNote": "GitHub records no deployments for this fleet \u2014 deploys go out via Firebase CLI / App Hosting, which is why live stamps are tracked here.",
    "stamp": {
-    "deployedAt": "2026-10-04T12:43:05Z",
+    "deployedAt": "2026-10-24T12:42:57Z",
     "source": "firebase-hosting-release",
     "sourceLabel": "Firebase Hosting release",
     "sha": null,
-    "reportedAt": "2026-10-07T12:45:00Z",
-    "note": "Decoded from the Firebase Hosting release ID (sites/personal-finance-os/releases/1791117785626000); last-known-live from real release history, fetched 2026-10-07."
+    "reportedAt": "2026-10-27T12:42:00Z",
+    "note": "Decoded from the Firebase Hosting release ID (sites/personal-finance-os/releases/1792845777355000, microsecond timestamp); last-known-live from real release history, fetched 2026-10-27."
    }
   },
   {
@@ -574,18 +581,25 @@
    "targetKind": "firebase-hosting",
    "targetLabel": "Firebase Hosting",
    "drift": {
-    "status": "STALE",
-    "gapText": "pushed 1m 37s after last deploy",
-    "evidence": "Latest main commit (2026-10-04T13:04:19Z) is newer than the last known live stamp (2026-10-04T13:02:42Z) \u2014 pushed 1m 37s after the last deploy finished."
+    "status": "LIVE",
+    "gapText": "deployed 43s after last push",
+    "evidence": "Last known live stamp (2026-10-25T12:43:51Z) covers the latest main commit (2026-10-25T12:43:08Z)."
    },
    "latestCommit": {
-    "sha": "a6ffce1",
-    "fullSha": "a6ffce1ee7be2eb35095091be89f2720243d497a",
-    "message": "chore: ignore firebase deploy cache",
-    "committedAt": "2026-10-04T13:04:19Z",
+    "sha": "56c574d",
+    "fullSha": "56c574dc838094134692dc971bc2f677d1538118",
+    "message": "fix: Stooq degraded responses fall through to Yahoo instead of failing the build",
+    "committedAt": "2026-10-25T12:43:08Z",
     "author": "Aadit Mehrotra"
    },
    "commitHistory": [
+    {
+     "sha": "56c574d",
+     "fullSha": "56c574dc838094134692dc971bc2f677d1538118",
+     "message": "fix: Stooq degraded responses fall through to Yahoo instead of failing the build",
+     "committedAt": "2026-10-25T12:43:08Z",
+     "author": "Aadit Mehrotra"
+    },
     {
      "sha": "a6ffce1",
      "fullSha": "a6ffce1ee7be2eb35095091be89f2720243d497a",
@@ -661,12 +675,12 @@
    "githubDeployments": 0,
    "githubDeploymentsNote": "GitHub records no deployments for this fleet \u2014 deploys go out via Firebase CLI / App Hosting, which is why live stamps are tracked here.",
    "stamp": {
-    "deployedAt": "2026-10-04T13:02:42Z",
+    "deployedAt": "2026-10-25T12:43:51Z",
     "source": "firebase-hosting-release",
     "sourceLabel": "Firebase Hosting release",
     "sha": null,
-    "reportedAt": "2026-10-07T12:45:00Z",
-    "note": "Decoded from the Firebase Hosting release ID (sites/ai-trading-terminal/releases/1791118962959000); last-known-live from real release history, fetched 2026-10-07."
+    "reportedAt": "2026-10-27T12:42:00Z",
+    "note": "Decoded from the Firebase Hosting release ID (sites/ai-trading-terminal/releases/1792932231949000, microsecond timestamp); last-known-live from real release history, fetched 2026-10-27."
    }
   },
   {
@@ -1778,17 +1792,24 @@
    "targetLabel": "Firebase Hosting",
    "drift": {
     "status": "LIVE",
-    "gapText": "deployed 28s after last push",
-    "evidence": "Last known live stamp (2026-10-17T12:52:39Z) covers the latest main commit (2026-10-17T12:52:11Z)."
+    "gapText": "deployed 49s after last push",
+    "evidence": "Last known live stamp (2026-10-26T12:45:19Z) covers the latest main commit (2026-10-26T12:44:30Z)."
    },
    "latestCommit": {
-    "sha": "040f94a",
-    "fullSha": "040f94a0625facd63bed996d22ce2f96cfb56f5c",
-    "message": "Rebuild public data payloads at deploy time",
-    "committedAt": "2026-10-17T12:52:11Z",
+    "sha": "a98f611",
+    "fullSha": "a98f61189a870b3c75039dec33c2f90dc71018ff",
+    "message": "Refresh 311 data to Oct 22-24 slice, replay today Oct 26",
+    "committedAt": "2026-10-26T12:44:30Z",
     "author": "Aadit Mehrotra"
    },
    "commitHistory": [
+    {
+     "sha": "a98f611",
+     "fullSha": "a98f61189a870b3c75039dec33c2f90dc71018ff",
+     "message": "Refresh 311 data to Oct 22-24 slice, replay today Oct 26",
+     "committedAt": "2026-10-26T12:44:30Z",
+     "author": "Aadit Mehrotra"
+    },
     {
      "sha": "040f94a",
      "fullSha": "040f94a0625facd63bed996d22ce2f96cfb56f5c",
@@ -1871,12 +1892,12 @@
    "githubDeployments": 0,
    "githubDeploymentsNote": "GitHub records no deployments for this fleet \u2014 deploys go out via Firebase CLI / App Hosting, which is why live stamps are tracked here.",
    "stamp": {
-    "deployedAt": "2026-10-17T12:52:39Z",
+    "deployedAt": "2026-10-26T12:45:19Z",
     "source": "firebase-hosting-release",
     "sourceLabel": "Firebase Hosting release",
     "sha": null,
-    "reportedAt": "2026-10-22T12:44:55Z",
-    "note": "Decoded from the Firebase Hosting release ID (sites/ai-property-management-agent/releases/1792241559738000, microsecond timestamp); last-known-live from real release history, fetched 2026-10-22."
+    "reportedAt": "2026-10-27T12:42:00Z",
+    "note": "Decoded from the Firebase Hosting release ID (sites/ai-property-management-agent/releases/1793018719280000, microsecond timestamp); last-known-live from real release history, fetched 2026-10-27."
    }
   },
   {
@@ -1965,6 +1986,108 @@
     "sha": null,
     "reportedAt": "2026-10-22T12:44:55Z",
     "note": "Decoded from the Firebase Hosting release ID (sites/ai-rfp-response-agent/releases/1792327992419000, microsecond timestamp); last-known-live from real release history, fetched 2026-10-22."
+   }
+  },
+  {
+   "repo": "ai-compliance-evidence-agent",
+   "githubUrl": "https://github.com/tidaaartorhem/ai-compliance-evidence-agent",
+   "liveUrl": "https://ai-compliance-evidence-agent.web.app",
+   "targetKind": "firebase-hosting",
+   "targetLabel": "Firebase Hosting",
+   "drift": {
+    "status": "LIVE",
+    "gapText": "deployed 33s after last push",
+    "evidence": "Last known live stamp (2026-10-23T12:53:13Z) covers the latest main commit (2026-10-23T12:52:40Z)."
+   },
+   "latestCommit": {
+    "sha": "2aad767",
+    "fullSha": "2aad767c11a848afd33f8b6ed9062ce410d0bda1",
+    "message": "docs: README with problem space, real-vs-seeded data statement, headline numbers",
+    "committedAt": "2026-10-23T12:52:40Z",
+    "author": "Aadit Mehrotra"
+   },
+   "commitHistory": [
+    {
+     "sha": "2aad767",
+     "fullSha": "2aad767c11a848afd33f8b6ed9062ce410d0bda1",
+     "message": "docs: README with problem space, real-vs-seeded data statement, headline numbers",
+     "committedAt": "2026-10-23T12:52:40Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "7b938d0",
+     "fullSha": "7b938d0bcf02535f584218824a0512bbcf5d7dde",
+     "message": "web: TypeScript matcher mirror, shared test-vector contract, pipeline-driven build, Firebase hosting config",
+     "committedAt": "2026-10-23T12:52:40Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "19324a0",
+     "fullSha": "19324a05d333a6f17df95f265ec520ba90613158",
+     "message": "web: EvidenceBoard frontend (coverage, artifacts, gaps, paste-an-artifact, replay views; light mode)",
+     "committedAt": "2026-10-23T12:52:40Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "8d4a94a",
+     "fullSha": "8d4a94a159f4d5c6e221e4e51482d073ce3a20cd",
+     "message": "tests: 58 pytest tests, 20-pair golden set, Python/TS test-vector contract",
+     "committedAt": "2026-10-23T12:52:38Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "9ef468f",
+     "fullSha": "9ef468f8f3a7b3134212be761b1f0e99a44b2792",
+     "message": "data: seeded 72-artifact evidence library with many-to-many control mappings",
+     "committedAt": "2026-10-23T12:52:38Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "7f9a476",
+     "fullSha": "7f9a476c707e7509483f50460ccedafca8de6e29",
+     "message": "pipeline: deterministic matcher, coverage scoring, staleness flags, cross-control dedup, human-gated gap drafts",
+     "committedAt": "2026-10-23T12:52:38Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "1aae99c",
+     "fullSha": "1aae99cd74fd3dd9983204b0b500645735ec0228",
+     "message": "pipeline: catalog parser + evidence typing from assessment methods (EXAMINE/INTERVIEW/TEST)",
+     "committedAt": "2026-10-23T12:52:38Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "da73e7d",
+     "fullSha": "da73e7df14970ca319e4ae76560952f076b7bd67",
+     "message": "data: ingest NIST OSCAL catalogs (SP 800-53 rev5, CSF 2.0, CC0 public domain)",
+     "committedAt": "2026-10-23T12:52:36Z",
+     "author": "Aadit Mehrotra"
+    }
+   ],
+   "actions": null,
+   "actionsHistory": [],
+   "prs": {
+    "open": 0,
+    "stale": []
+   },
+   "dependabot": {
+    "total": 0,
+    "bySeverity": {
+     "critical": 0,
+     "high": 0,
+     "moderate": 0,
+     "low": 0
+    }
+   },
+   "githubDeployments": 0,
+   "githubDeploymentsNote": "GitHub records no deployments for this fleet \u2014 deploys go out via Firebase CLI / App Hosting, which is why live stamps are tracked here.",
+   "stamp": {
+    "deployedAt": "2026-10-23T12:53:13Z",
+    "source": "firebase-hosting-release",
+    "sourceLabel": "Firebase Hosting release",
+    "sha": null,
+    "reportedAt": "2026-10-27T12:42:00Z",
+    "note": "Decoded from the Firebase Hosting release ID (sites/ai-compliance-evidence-agent/releases/1792759993718000, microsecond timestamp); last-known-live from real release history, fetched 2026-10-27."
    }
   }
  ]

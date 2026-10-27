@@ -1,5 +1,5 @@
 {
- "syncedAt": "2026-10-22T12:49:22Z",
+ "syncedAt": "2026-10-27T12:47:10Z",
  "repos": {
   "life-os-dashboard": {
    "repo": "life-os-dashboard",
@@ -89,7 +89,7 @@
      "low": 0
     }
    },
-   "fetchedAt": "2026-10-22T12:45:24Z"
+   "fetchedAt": "2026-10-27T12:42:55Z"
   },
   "freelancer-crm": {
    "repo": "freelancer-crm",
@@ -179,7 +179,7 @@
      "low": 0
     }
    },
-   "fetchedAt": "2026-10-22T12:45:37Z"
+   "fetchedAt": "2026-10-27T12:43:08Z"
   },
   "regulatory-change-radar": {
    "repo": "regulatory-change-radar",
@@ -269,7 +269,7 @@
      "low": 0
     }
    },
-   "fetchedAt": "2026-10-22T12:45:49Z"
+   "fetchedAt": "2026-10-27T12:43:21Z"
   },
   "field-manual": {
    "repo": "field-manual",
@@ -359,13 +359,20 @@
      "low": 0
     }
    },
-   "fetchedAt": "2026-10-22T12:46:03Z"
+   "fetchedAt": "2026-10-27T12:43:35Z"
   },
   "personal-finance-os": {
    "repo": "personal-finance-os",
    "defaultBranch": "master",
-   "pushedAt": "2026-10-04T12:42:48Z",
+   "pushedAt": "2026-10-24T12:42:43Z",
    "commits": [
+    {
+     "sha": "7bf508c",
+     "fullSha": "7bf508cf8113052aa9e5c071ce0e7ca8922d2f70",
+     "message": "feat(cashflow): lean-month safe spend and income volatility",
+     "committedAt": "2026-10-24T12:42:39Z",
+     "author": "Aadit Mehrotra"
+    },
     {
      "sha": "d402cc6",
      "fullSha": "d402cc6ef75e2569e956b4c6d403eb82c6642eef",
@@ -435,13 +442,20 @@
      "low": 0
     }
    },
-   "fetchedAt": "2026-10-22T12:46:16Z"
+   "fetchedAt": "2026-10-27T12:43:48Z"
   },
   "ai-trading-terminal": {
    "repo": "ai-trading-terminal",
    "defaultBranch": "main",
-   "pushedAt": "2026-10-04T13:04:21Z",
+   "pushedAt": "2026-10-25T12:43:14Z",
    "commits": [
+    {
+     "sha": "56c574d",
+     "fullSha": "56c574dc838094134692dc971bc2f677d1538118",
+     "message": "fix: Stooq degraded responses fall through to Yahoo instead of failing the build",
+     "committedAt": "2026-10-25T12:43:08Z",
+     "author": "Aadit Mehrotra"
+    },
     {
      "sha": "a6ffce1",
      "fullSha": "a6ffce1ee7be2eb35095091be89f2720243d497a",
@@ -511,7 +525,7 @@
      "low": 0
     }
    },
-   "fetchedAt": "2026-10-22T12:46:30Z"
+   "fetchedAt": "2026-10-27T12:44:01Z"
   },
   "creator-analytics-studio": {
    "repo": "creator-analytics-studio",
@@ -601,7 +615,7 @@
      "low": 0
     }
    },
-   "fetchedAt": "2026-10-22T12:46:44Z"
+   "fetchedAt": "2026-10-27T12:44:13Z"
   },
   "f1-race-weekend-os": {
    "repo": "f1-race-weekend-os",
@@ -691,7 +705,7 @@
      "low": 0
     }
    },
-   "fetchedAt": "2026-10-22T12:46:57Z"
+   "fetchedAt": "2026-10-27T12:44:26Z"
   },
   "ai-product-analytics-canvas": {
    "repo": "ai-product-analytics-canvas",
@@ -760,7 +774,7 @@
      "low": 0
     }
    },
-   "fetchedAt": "2026-10-22T12:47:10Z"
+   "fetchedAt": "2026-10-27T12:44:40Z"
   },
   "travel-command-center": {
    "repo": "travel-command-center",
@@ -822,7 +836,7 @@
      "low": 0
     }
    },
-   "fetchedAt": "2026-10-22T12:47:23Z"
+   "fetchedAt": "2026-10-27T12:44:53Z"
   },
   "ai-email-operations-agent": {
    "repo": "ai-email-operations-agent",
@@ -905,7 +919,7 @@
      "low": 0
     }
    },
-   "fetchedAt": "2026-10-22T12:47:36Z"
+   "fetchedAt": "2026-10-27T12:45:06Z"
   },
   "ai-invoice-processing-agent": {
    "repo": "ai-invoice-processing-agent",
@@ -967,7 +981,7 @@
      "low": 0
     }
    },
-   "fetchedAt": "2026-10-22T12:47:50Z"
+   "fetchedAt": "2026-10-27T12:45:19Z"
   },
   "ai-customer-support-action-agent": {
    "repo": "ai-customer-support-action-agent",
@@ -1050,7 +1064,7 @@
      "low": 0
     }
    },
-   "fetchedAt": "2026-10-22T12:48:03Z"
+   "fetchedAt": "2026-10-27T12:45:34Z"
   },
   "ai-meeting-to-execution-agent": {
    "repo": "ai-meeting-to-execution-agent",
@@ -1119,7 +1133,7 @@
      "low": 0
     }
    },
-   "fetchedAt": "2026-10-22T12:48:17Z"
+   "fetchedAt": "2026-10-27T12:45:47Z"
   },
   "ai-insurance-submission-agent": {
    "repo": "ai-insurance-submission-agent",
@@ -1195,7 +1209,7 @@
      "low": 0
     }
    },
-   "fetchedAt": "2026-10-22T12:48:30Z"
+   "fetchedAt": "2026-10-27T12:46:00Z"
   },
   "ai-sales-research-agent": {
    "repo": "ai-sales-research-agent",
@@ -1257,7 +1271,7 @@
      "low": 0
     }
    },
-   "fetchedAt": "2026-10-22T12:48:43Z"
+   "fetchedAt": "2026-10-27T12:46:14Z"
   },
   "ai-recruiting-coordinator": {
    "repo": "ai-recruiting-coordinator",
@@ -1326,13 +1340,20 @@
      "low": 0
     }
    },
-   "fetchedAt": "2026-10-22T12:48:56Z"
+   "fetchedAt": "2026-10-27T12:46:28Z"
   },
   "ai-property-management-agent": {
    "repo": "ai-property-management-agent",
    "defaultBranch": "master",
-   "pushedAt": "2026-10-17T12:52:20Z",
+   "pushedAt": "2026-10-26T12:44:40Z",
    "commits": [
+    {
+     "sha": "a98f611",
+     "fullSha": "a98f61189a870b3c75039dec33c2f90dc71018ff",
+     "message": "Refresh 311 data to Oct 22-24 slice, replay today Oct 26",
+     "committedAt": "2026-10-26T12:44:30Z",
+     "author": "Aadit Mehrotra"
+    },
     {
      "sha": "040f94a",
      "fullSha": "040f94a0625facd63bed996d22ce2f96cfb56f5c",
@@ -1409,7 +1430,7 @@
      "low": 0
     }
    },
-   "fetchedAt": "2026-10-22T12:49:09Z"
+   "fetchedAt": "2026-10-27T12:46:42Z"
   },
   "ai-rfp-response-agent": {
    "repo": "ai-rfp-response-agent",
@@ -1471,7 +1492,83 @@
      "low": 0
     }
    },
-   "fetchedAt": "2026-10-22T12:49:22Z"
+   "fetchedAt": "2026-10-27T12:46:56Z"
+  },
+  "ai-compliance-evidence-agent": {
+   "repo": "ai-compliance-evidence-agent",
+   "defaultBranch": "main",
+   "pushedAt": "2026-10-23T12:52:46Z",
+   "commits": [
+    {
+     "sha": "2aad767",
+     "fullSha": "2aad767c11a848afd33f8b6ed9062ce410d0bda1",
+     "message": "docs: README with problem space, real-vs-seeded data statement, headline numbers",
+     "committedAt": "2026-10-23T12:52:40Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "7b938d0",
+     "fullSha": "7b938d0bcf02535f584218824a0512bbcf5d7dde",
+     "message": "web: TypeScript matcher mirror, shared test-vector contract, pipeline-driven build, Firebase hosting config",
+     "committedAt": "2026-10-23T12:52:40Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "19324a0",
+     "fullSha": "19324a05d333a6f17df95f265ec520ba90613158",
+     "message": "web: EvidenceBoard frontend (coverage, artifacts, gaps, paste-an-artifact, replay views; light mode)",
+     "committedAt": "2026-10-23T12:52:40Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "8d4a94a",
+     "fullSha": "8d4a94a159f4d5c6e221e4e51482d073ce3a20cd",
+     "message": "tests: 58 pytest tests, 20-pair golden set, Python/TS test-vector contract",
+     "committedAt": "2026-10-23T12:52:38Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "9ef468f",
+     "fullSha": "9ef468f8f3a7b3134212be761b1f0e99a44b2792",
+     "message": "data: seeded 72-artifact evidence library with many-to-many control mappings",
+     "committedAt": "2026-10-23T12:52:38Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "7f9a476",
+     "fullSha": "7f9a476c707e7509483f50460ccedafca8de6e29",
+     "message": "pipeline: deterministic matcher, coverage scoring, staleness flags, cross-control dedup, human-gated gap drafts",
+     "committedAt": "2026-10-23T12:52:38Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "1aae99c",
+     "fullSha": "1aae99cd74fd3dd9983204b0b500645735ec0228",
+     "message": "pipeline: catalog parser + evidence typing from assessment methods (EXAMINE/INTERVIEW/TEST)",
+     "committedAt": "2026-10-23T12:52:38Z",
+     "author": "Aadit Mehrotra"
+    },
+    {
+     "sha": "da73e7d",
+     "fullSha": "da73e7df14970ca319e4ae76560952f076b7bd67",
+     "message": "data: ingest NIST OSCAL catalogs (SP 800-53 rev5, CSF 2.0, CC0 public domain)",
+     "committedAt": "2026-10-23T12:52:36Z",
+     "author": "Aadit Mehrotra"
+    }
+   ],
+   "actionsRuns": [],
+   "openPulls": [],
+   "deployments": [],
+   "dependabot": {
+    "total": 0,
+    "bySeverity": {
+     "critical": 0,
+     "high": 0,
+     "moderate": 0,
+     "low": 0
+    }
+   },
+   "fetchedAt": "2026-10-27T12:47:10Z"
   }
  }
 }
